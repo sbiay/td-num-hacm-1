@@ -15,7 +15,7 @@ Plan :
 	2. [Des méthodes plus modernes ](#t1-2)
 	3. [Conseils pratiques ](#t1-3)
 	4. [Des solutions cloud ](#t1-4)
-2. [Organiser ses fichiers](#t2)
+2. [Organiser fichiers et dossiers](#t2)
 	1. [Nommer ses dossiers ](#t2-1)
 	2. [Organiser ses dossiers ](#t2-2)
 	3. [Nommer ses fichiers ](#t2-3)
@@ -208,7 +208,7 @@ Tous les diaporamas sont accessibles en deux formats :
 
 <a id='t2'/>
 
-# Organiser ses fichiers
+# Organiser fichiers et dossiers
 [comment16]: <13> (TITRE1)
 
 <a id='t2-1'/>
@@ -240,7 +240,10 @@ Tous les diaporamas sont accessibles en deux formats :
 
 ### <15>
 
-**Image** : [Schéma](img/schemas_arbo-dossiers.jpg)
+![](/home/sbiay/illustrations-cours/cours/NUM1/schemas/arbo-dossiers.jpg)
+
+
+Image vectorielle [ici](https://raw.githubusercontent.com/sbiay/td-num-hacm-1/b792db2fd7cc93d517f1a2f8059ee4f2152f8f09/img/arbo-dossiers.svg)
 
 
 <a id='t2-3'/>
@@ -249,25 +252,39 @@ Tous les diaporamas sont accessibles en deux formats :
 
 ### <16>
 
-- Respecter les mêmes règles que pour le nommage des dossiers
 
+![](/home/sbiay/sites/france/aquitaine/86-vienne/saint-savin-sur-gartempe/nef/voûte/a-nef-12-.jpg)
+
+
+- Respecter les mêmes règles que pour le nommage des dossiers
 
 - Ne pas donner de nom trop long, car le chemin complet du fichier ne doit pas dépasser 250 caractères
 
-	- /home/sbiay/sites/france/aquitaine/86-vienne/saint-savin-sur-gartempe/nef/voute/a-nef-12.jpg (92 caractères)
 
-	
+C:\\Users\\sbiay\\sites\\france\\aquitaine\\86-vienne\\saint-savin-sur-gartempe\\nef\\voute\\a-nef-12.jpg **(95 caractères)**
 
-	- /home/sbiay/sites/france/aquitaine/86-vienne/saint-savin-sur-gartempe/nef/voute/sacrifice-de-cain-et-abel-XII-e-siecle-vue-generale-source-upload.wikimedia.org/wikipedia/commons/thumb/1/1f/
+\colorred
+C:\\Users\\sbiay\\sites\\france\\aquitaine\\86-vienne\\saint-savin-sur-gartempe\\nef\\voute\\sacrifice-de-cain-et-abel-XII-e-siecle-vue-generale-source-upload.wikimedia.org\\wikipedia\\commons\\thumb\\1\\1f\\
 	11th_century
-	unknown_painters_- \_Noah27s_Ark \_-\_WGA1970858495.jpg (251 caractères)
+	unknown_painters_- \_Noah27s_Ark \_-\_WGA1970858495.jpg **(260 caractères)**
+
 
 ### <17>
+
 
 Le **versionnage** des fichiers doit être numérique.\
 On ne renomme pas un fichier au fil du travail !
 
-Exemple de mauvaise pratique : 
 
-`rapport-stage-version-08-final_final2_reluDir_final3Csur.docx`
+\colorred
+rapport-stage-version-08-final_final2_reluDir_final3Csur.docx
 
+
+rapport-stage.docx
+
+
+On peut conserver des états antérieurs ou des envois\
+dans un dossier `archive` :\
+
+- rapport-stage-30-10-2025-pour-directeur.docx
+- rapport-stage-25-10-2025-avant-fusion-chap-2-3.docx
