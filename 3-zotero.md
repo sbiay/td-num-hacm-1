@@ -23,11 +23,11 @@ Plan :
 	1. [Créer des collections ](#t2-1)
 	2. [Chercher des références dans les catalogues spécialisés ](#t2-2)
 	3. [Contrôler et nettoyer les références importées ](#t2-3)
-	4. [Organiser ses collections par mots-clés ](#t2-4)
-	5. [Créer des recherches dynamiques ](#t2-5)
-3. [Adapter Zotero à un usage spécifique](#t3)
-	1. [Le problème des sources éditées ](#t3-1)
-4. [Citer la bibliographie dans le traitement de texte](#t4)
+	4. [Indexer des types de références complexes ](#t2-4)
+	5. [Indexer des types de références complexes ](#t2-5)
+	6. [Organiser ses collections par mots-clés ](#t2-6)
+	7. [Créer des recherches dynamiques ](#t2-7)
+3. [Citer la bibliographie dans le traitement de texte](#t3)
 
 <!--FINET-->
 
@@ -409,10 +409,8 @@ Les formats proposés sont multiples ; quel que soit le format choisi, il perme
 
 <a id='t2'/>
 
-# Créer et alimenter de nouvelles collections
+# Créer et alimenter de nouvelles collections
 [comment22]: <26> (TITRE1)
-
-<!--🚩-->
 
 
 <a id='t2-1'/>
@@ -426,7 +424,7 @@ Avant d'ajouter plein de références à la bibliothèque, il est utile de crée
 - Cliquer sur le bouton **Nouvelle collection** (en haut à gauche)
 - Créer par exemple une collection `td-numerique`
 - Revenir dans `Ma bibliothèque`
-- Sélectionner la première référence créée et la faire glisser dans `td-numerique`
+- Sélectionner la référence créée et la faire glisser dans `td-numerique`
 
 
 ### <28>
@@ -450,7 +448,7 @@ Cette bibliographie devra absolument distinguer deux catégories principales :
 
 Je vous conseille de créer les collections et sous-collections suivantes :
 
-- `memoire`
+- `td-numerique`
 	- `sources`
 	- `etudes`
 
@@ -463,9 +461,9 @@ C'est par ce système des sous-collections que l'on sera le plus efficace.
 
 ### <30>
 
-<!--une réf simple : pierre Cabanne-->
 
 La plupart des catalogues en ligne permettent d'importer automatiquement des références dans Zotero, mais avec des résultats inégaux.
+
 
 Chercher et exporter P. Cabanne, *Honoré Daumier : témoin de la comédie humaine*, Paris, 1999 :
 
@@ -494,6 +492,8 @@ d'une **monographie**, **BnF-CG** est notre meilleur ami
 
 2. Pour les articles, privilégier **Kubikat** et le catalogue de la **Bibliothèque de l'INHA**
 
+**NB** : Pour exploiter pleinement Kubikat, éviter la recherche simple ; faire des recherches avancées en cliquant sur **kubikat + Discovery**
+
 
 <a id='t2-3'/>
 
@@ -503,12 +503,16 @@ d'une **monographie**, **BnF-CG** est notre meilleur ami
 
 Aucun import automatique dans Zotero n'est parfait : il faut toujours **passer en revue** les informations des notices importées.
 
-**BnF-CG** a deux défauts, qu'il faudra corriger à la main :
+Les défauts de **BnF-CG** :
 
 1. Lorsque le titre comporte un sous-titre séparé par deux points, les deux points sont suivis d'une double espace et non d'une simple espace
-2. La notice importée contient une information inutile et à supprimer : **Nb de volumes : 1**
+
+2. Les titres longs sont entrecoupés de blocs de 6 espaces consécutives
+
+3. La notice importée contient souvent une information inutile et à supprimer : **Nb de volumes : 1**
 
 
+<!--
 ### <34>
 
 D'autre part, lorsque l'on importe une réf.
@@ -519,57 +523,57 @@ Pour ajouter une espace insécable :
 
 - Sous Mac OS : Alt (Option) + Espace
 - Sous Win : Alt + 0160
+-->
 
 
 ### <35>
 
-Repartons d'une collection bibliographique un peu propre.
 
-- Dans la collection `td-numerique` > `sources`, on ne conserve que *L'abbaye de Fleury en l'an mil* importé depuis BnF-CG
+Accéder à [cette notice](https://catalogue.bnf.fr/ark:/12148/cb35935562c)
 
-Faisons une recherche complémentaire sur l'**abbaye de Fleury** (auj.
-Saint-Benoît-sur-Loire) et le rôle de l'un de ses abbés importants : **Gauzlin**.
+- L'importer dans la *bonne* collection
+- La nettoyer
 
-Dans **Kubikat**, rechercher « saint-benoît-sur-loire gauzlin ».
+[comment26]: <35> (Attention, l'utilisation du slash dans le titre de la notice provoque une coupure dans l'import : la fin du titre est manquante)
 
-Avec son indexation riche, les références n'ayant pas « Saint-Benoît-sur-Loire » dans le titre vont tout de même remonter, grâce à l'indexation de Kubikat par matières ou sujets.
+Contrôler le résultat en utilisant l'éditeur de style : 
 
-On doit obtenir trois références.
+**Edition** > Paramètres > Citer > Editeur de style
 
+Penser à cliquer sur **Position dans la citation** > Subsequent\
+pour voir le comportement des citations successives (avec *op. cit.*)
 
 ### <36>
 
-La première réf.
-a pour auteur **Franzé, Barbara**.
 
-- Ouvrir cette réf. dans un nouvel onglet :
-	- Mac OS : **Cmd + Clic** (?)
-	- Win : Ctrl + Clic
+En l'absence d'auteur, le titre abrégé est insuffisant lors d'une citation abérgée par op. cit. : il faut donc enrichir le champ **Titre abrégé**…
 
-Il s'agit d'un **chapitre** dans une monographie.
-Pas de chance, elle n'est pas dans les collections de la BnF, mais on va pouvoir la récupérer par l'**ISBN** :
-
-[comment26]: <36> (Art, architecture, and the moving viewer, c.300-1500 CE 	edited by Gillian B. Elliott, Anne Heath ; toujours pas en nov 2023.)
-
-- Dans la notice, cliquer sur **Lien vers la source** (là aussi mieux vaut ouvrir dans un nouvel onglet, car on va très vite revenir à la notice du chapitre)
-- Copier l'ISBN
-- Se placer dans la sous-collection `td-numerique` > `etudes`
-- Baguette magique !
-
+[comment27]: <36> (Je propose "Lithographies [vente Drouot, 6 juil. 1973]".)
 
 ### <37>
 
-Une fois la monographie importée dans Zotero, il y a du nettoyage à faire dans les champs suivants :
+**Les contributions contenues dans un collectif**
 
-- Titre : ajouter une espace insécable avant les deux points
-	- Sous Mac OS : Alt (Option) + Espace
-	- Sous Win : Alt + 0160
-- Collection : conserver seulement « 18 »
-- Lieu : remplacer « Leiden ; Boston » par « Leiden-Boston »
-- Titre abrégé : conserver seulement « Art, architecture, and the moving viewer »
 
+Accéder à [cette notice](https://www.kubikat.org/permalink/49MPG_KUBIKAT/fseusn/cdi_hal_primary_oai_HAL_hal_05275348v1)
+
+- L'importer dans la *bonne* collection
+- La nettoyer
+- Evaluer l'exhaustivité des données importées
 
 ### <38>
+
+Pour indexer correctement ce type de référence, il est préférable de partir de la référence de l'ouvrage collectif :
+
+- L'importer depuis cette [notice](https://catalogue.bnf.fr/ark:/12148/cb42546646v) de BNF-CG
+- La nettoyer
+- Ajouter au **Titre** le descriptif qui ne s'est pas importé tout seul : `textes issus du colloque…`
+- **Contrôler** le résultat via l'éditeur de citation
+
+[comment28]: <38> (Il y a notamment une URL et une date de consultation à supprimer.)
+
+
+### <39>
 
 Maintenant que la réf.
 de la monographie est propre, on peut créer celle du chapitre :
@@ -578,74 +582,102 @@ de la monographie est propre, on peut créer celle du chapitre :
 - Dans la nouvelle réf. changer le **Type de document** > Chapitre de livre
 - Revenir à la notice Kubikat du chapitre pour ajouter à présent les infos manquantes :
 	- Titre
-	- Auteur : dans Zotero on ajoute bien un auteur et pas un éditeur comme ceux qui existent déjà, cliquer sur Éditeur pour afficher le menu)
+	- Auteurs
 	- Pages
-
-Enfin, **on retire la réf.
-de la monographie** *Art, architecture…* de cette collection : Clic droit > Retirer le doc.
-de la collection
-
-
-### <39>
-
-Revenons aux résultats de notre recherche.
-Les réf.
-2 et 3 sont des articles parus sous l'égide de la Société Nationale des Antiquaires de France.
-
-**Réflexe à avoir** : les revues des sociétés savantes françaises sont largement accessibles via le portail **Persée**, [ici](https://www.persee.fr/).
-
-- Rechercher « bautier gauzlin » sur Persée
-- Cliquer sur la réf. de *Les travaux et embellissements de Notre-Dame de Fleury…*
-- L'importer dans Zotero
-
-L'import depuis Persée est extrêmement propre : il n'y a rien à nettoyer.
-
-[comment27]: <39> (Même si on importe l'URL et la date de consultation, Zotero sait que quand un article possède une pagination, c'est qu'il a été imprimé, et que donc il ne faut pas afficher d'URL ou de date de consultation. En revanche, s'il n'y a pas de pagination, il envoie l'URL.)
-
-
-### <40>
-
-**Attention** : peut-être que Zotero a automatiquement téléchargé le **PDF de l'article**
-
-Cela peut sembler pratique d'utiliser cette fonction d'import automatique, mais si vous utilisez un compte Zotero avec synchronisation/sauvegarde, les pdf vont très vite **remplir votre espace de stockage gratuit**.
-
-Pour éviter cela : 
-
-- Accéder aux **Paramètres** de Zotero
-- Décocher **Joindre automatiquement les fichiers PDF**
-- Redémarrer le logiciel
-
-
-### <41>
-
-Laissons tomber le 2^e^ résultat que nous donnait Kubikat et complètons la recherche avec la bibliothèque de l'INHA, [ici](https://inha.summon.serialssolutions.com/#!/search?ho=t&include.ft.matches=f&l=fr-FR&q=saint-beno%C3%Aet-sur-loire%20gauzlin)
-
-- Cliquer sur le dossier jaune pour importer la réf.
-- Contrôler les données
-- Tout est ok ?
-
-
-### <42>
-
-En fait il manque la pagination de l'article.
-Mais laissons-tomber ! et considérons que cette recherche est finie.
-
-Le temps passe et au fil de nos recherches, les références s'accumulent…
-
-- Télécharger [**ce fichier**](https://pedag.u-picardie.fr/moodle/upjv/mod/resource/view.php?id=274182)
-- Importer le fichier dans Zotero
-	- Mac OS : Zotero > Importer
-	- Win : Fichier > Importer
-- Cocher « Un fichier (BibTeX, RIS, etc.) » 
-- Naviguer jusqu'au fichier souhaité
-- **Cocher** « Placer les collections et les documents… »
-
 
 <a id='t2-4'/>
 
-## Organiser ses collections par mots-clés 
+## Indexer des types de références complexes 
+
+### <40>
+
+**Les recensions (ou comptes rendus) d'ouvrages**
+
+- Importer [cette notice](https://www.kubikat.org/permalink/49MPG_KUBIKAT/1b3674g/alma990015281732009152)
+
+Un compte rendu est théoriquement un article dont le titre est… le titre d'un ouvrage\
+Zotero ne prévoit pas (encore) de type de référence dédié\
+Il faut par conséquent intégrer entièrement la référence de l'ouvrage recensé dans le champ **Titre**, avec la mise en forme adéquate.
+
+### <41>
+
+- Changer le type de document en **Article de revue**
+
+- Traduire la 1^re^ partie entre crochets : `[Compte rendu de]`
+
+- Mettre en italique le titre en l'insérant entre deux balises HTML (balises **i** pour *italic*) :\
+	`<i>Daumier : l'art et la République</i>`
+
+- Transformer le nom de l'auteur pour faire apparaître le patronyme en petites capitales : skip\
+	 `Michel <span style="font-variant:small-caps;">Mélot</span>`
+
+- Transformer le lieu et la date d'édition :\
+	`(Paris, 2008)`
+
+[comment30]: <41> (Il manque le numéro de la revue et la page…)
+
+
+<a id='t2-5'/>
+
+## Indexer des types de références complexes 
+
+### <42>
+
+Zotero est un **outil généraliste** qui n'a pas été conçu pour les sciences historiques.
+
+Ou touche à ses limites lorsqu'il s'agit de citer des **sources éditées dans un recueil, dans des œuvres complètes, ou citées depuis leur traduction**.
+
 
 ### <43>
+
+Problème très fréquent pour les antiquisants et modernistes\
+Par exemple, *L'abbaye de Fleury en l'an mil* est un recueil de sources éditées
+
+Pour citer une source de ce recueil, par exemple *Vita et passio sancti Abbonis* par Aimoin de Fleury, p. 25-38<!--cette pagination est inventée-->, je dois adopter la typographie suivante :
+
+- Aimoin de Fleury, *Vita et passio sancti Abbonis*, éd. Robert-Henri Bautier, Gillette Tyl-Labory, dans *L'abbaye de Fleury en l'an mil*, éd. Robert-Henri Bautier, Gillette Tyl-Labory, Anselme Davril, Lin Donnat, Paris, CNRS éd, 2004 (Sources d'histoire médiévale, 32), p. 25-38.
+
+Le titre du texte *ET* le titre de la monographie doivent être en italique.
+
+
+### <44>
+
+
+Pour citer une référence comportant deux parties de titres en italique, il faut :
+
+- Ruser avec l'utilisation des champs Zotero
+- Programmer une feuille de style en conséquence
+
+Le style **NantHA** y répond.
+
+
+### <45>
+
+- Importer et nettoyer [cette notice](https://catalogue.bnf.fr/ark:/12148/cb42415179d)
+
+[comment32]: <45> (Changer éd. en trad.)
+
+
+- **Dupliquer** la réf. du livre
+
+- Changer le **Type de document** > Entrée de dictionnaire
+
+- Déplacer le titre « Les sept lampes de l'architecture » dans **Titre du dict.**
+
+- Dans **Titre**, conserver seulement le *titre conventionnel* de l'œuvre à retouver dans la notice BNF
+
+- Récupérer la date de l'édition originale en cliquant sur le titre conventionnel dans la notice BNF, et l'insérer dans **Edition**
+
+- Chercher dans le catalogue de la BNF le lieu et la maison d'édition originale et les ajouter dans **Edition** avant la date
+
+- Contrôler le résultat via l'**Editeur de style**.
+
+
+<a id='t2-6'/>
+
+## Organiser ses collections par mots-clés 
+
+### <46>
 
 Une fois l'import effectué :
 
@@ -658,7 +690,7 @@ Maintenant notre recherche est noyée dans la masse…
 Comment retrouver les références qui concernent l'abbaye sachant que selon, les références, elles peuvent désigner la désigner sous le nom de Fleury ou de Saint-Benoît-sur-Loire ?
 
 
-### <44>
+### <47>
 
 Comme toute nos réf.
 avaient « Gauzlin » dans le titre, on peut les retrouver facilement toutes les trois.
@@ -673,7 +705,7 @@ En important le livre qui contient ce chapitre, on a rapatrié des mots-clés de
 - Saisir `Saint-Benoît-sur-Loire (Fleury)`
 
 
-### <45>
+### <48>
 
 Notre marqueur `Saint-Benoît-sur-Loire (Fleury)` s'est ajouté à la liste qui doit apparaître dans la fenêtre placée sous les dossiers de la bibliothèque
 
@@ -684,7 +716,7 @@ Notre marqueur `Saint-Benoît-sur-Loire (Fleury)` s'est ajouté à la liste qui 
 Notre marqueur a bien été ajouté à toute la sélection
 
 
-### <46>
+### <49>
 
 Si je fais une nouvelle recherche dans ma collection avec « Saint-Benoît-sur-Loire » ou « Fleury », je suis sûr de trouver mes références
 
@@ -696,11 +728,11 @@ Je vous conseille de ne pas récupérer automatiquement les marqueurs lors de l'
 - Générales : décocher absolument tout !
 
 
-<a id='t2-5'/>
+<a id='t2-7'/>
 
 ## Créer des recherches dynamiques 
 
-### <47>
+### <50>
 
 Gérer des marqueurs demande beaucoup de constance.
 Notre objectif ici est de retravailler ponctuellement sur l'abbaye Saint-Benoît-sur-Loire.
@@ -711,7 +743,7 @@ Mettons que l'on n'ait pas créé de marqueur :
 - **Effacer**
 
 
-### <48>
+### <51>
 
 Il est très commode de créer une recherche dynamique :
 
@@ -726,67 +758,11 @@ Notre recherche se mettra à jour automatiquement et on constate qu'elle concern
 
 <a id='t3'/>
 
-# Adapter Zotero à un usage spécifique
-[comment30]: <48> (TITRE1)
-
-
-<a id='t3-1'/>
-
-## Le problème des sources éditées 
-
-### <49>
-
-Zotero est un **outil généraliste** qui n'a pas été conçu pour les sciences historiques.
-
-Ou touche à ses limites lorsqu'il s'agit de **citer une source éditée dans une monographie**.
-
-
-### <50>
-
-*L'abbaye de Fleury en l'an mil* est un recueil de sources éditées. 
-
-Pour citer une source de ce recueil, par exemple *Vita et passio sancti Abbonis* par Aimoin de Fleury, p. 25-38 (cette pagination est fausse), je dois adopter la typographie suivante :
-
-- Aimoin de Fleury, *Vita et passio sancti Abbonis*, éd. Robert-Henri Bautier, Gillette Tyl-Labory, dans *L'abbaye de Fleury en l'an mil*, éd. Robert-Henri Bautier, Gillette Tyl-Labory, Anselme Davril, Lin Donnat, Paris, CNRS éd, 2004 (Sources d'histoire médiévale, 32), p. 25-38.
-
-Le titre du texte ET le titre de la monographie doivent être en italique.
-
-
-### <51>
-
-Pour citer une référence comportant deux parties de titres en italique, il faut :
-
-- Ruser avec l'utilisation des champs Zotero
-- Programmer une feuille de style en conséquence
-
-Le style `UPJV Histoire de l'art - note complète` y répond.
-Si vous avez besoin de le réinstaller, c'est par [ici](https://github.com/sbiay/zotero/blob/main/upjvha-full-note/upjvha-full-note.csl) ; cliquer sur **Raw**
+# Citer la bibliographie dans le traitement de texte
+[comment35]: <51> (TITRE1)
 
 
 ### <52>
-
-Pour créer la notice particulière de notre source, il faut :
-
-- **Dupliquer** *L'abbaye de Fleury en l'an mil*
-- Changer le **Type de document** > Entrée de dictionnaire
-- Supprimer l'auteur Thierry de Fleury, qui n'est pas l'auteur de notre texte
-- Changer les « Éditeurs » en **Directeur de coll.** : ce sont les éditeurs scientifiques de l'ouvrage dans son ensemble
-- Ajouter comme « Éditeurs » : Bautier et Tyl-Labory, ce sont les éditeurs du texte en particulier
-- Déplacer le titre « L'abbaye de Fleury en l'an mil » dans **Titre du dict.**
-- Écrire « Vita et passio sancti Abbonis » dans Titre
-- Compléter **Pages** : 25-38
-
-Contrôler le résultat en citant la réf.
-dans le traitement de texte.
-
-
-<a id='t4'/>
-
-# Citer la bibliographie dans le traitement de texte
-[comment32]: <52> (TITRE1)
-
-
-### <53>
 
 Pour mettre en forme la bibliographie à la fin de votre mémoire, on ne fera pas appel au bouton **Add/Édit Bibliography** dans le traitement de texte, car on mélangerait alors sources et études.
 
