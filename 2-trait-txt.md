@@ -526,7 +526,7 @@ On peut afficher les titres courants des sous-parties (Titre 2) sur les pages ga
 Vous pouvez transformer le document en pdf comme pour l'imprimer en recto-verso :
 
 - **Fichier** > Imprimer
-- Dans l'onglet **Standard** > Imprimante > Imprimer dans un fichier
+- Dans l'onglet **Standard** > Imprimante > Adobe PDF
 - Dans l'onglet **Libre OfficeWriter** > Pages > Imprimer les pages blanches insérées automatiquement
 - Lancer l'impression
 
@@ -806,46 +806,57 @@ https://www.associationdescorrecteurs.fr/outils/codes-typo/
 
 ### <51>
 
-Il est fréquent d'ajouter par erreurs plusieurs espaces les unes derrières les autres ; pour ramener leur nombre, quel qu'il soit, à 1 :
+ On fait une copie de sauvegarde avant !\
+car on va intervenir massivement sur le texte…
 
-- Chercher : `[ ]2,`\
 
-- Remplacer : [1 espace]
+Prendre le fichier **modele-memoire.odt** sur Madoc
 
 
 ### <52>
 
-On peut appliquer massivement ces règles\
-grâce aux expressions régulières.
+Il est fréquent d'ajouter par erreurs plusieurs espaces les unes derrières les autres ; pour ramener leur nombre, quel qu'il soit, à 1 :
 
-Appliquer des espaces insécables avant la ponctuation qui l'exige :
+- Ouvrir la boîte de dialogue de recherche (**Ctrl + H**)
 
-- Chercher : `(\S)[ ]?([:!?»])`\
-	 On cherche un caractère qui n'est pas une espace,\
-	suivi de 0 ou 1 espace justifiante (c'est-à-dire normale),\
-	suivie de d'une caractère qui doit obligatoirement être précédé d'une espace insécable
+- Cocher Expressions régulières
 
-- Remplacer : `$1 $2`\
-	 Une espace insécable sépare \$1 et \$2 ; pour insérer ce caractère sous Windows, maintenez enfoncée la touche {Alt et, sur le pavé numérique, tapez 0160.}
+- Chercher : `\s2,`\
+
+- Remplacer : `[`espace justifiante`]`
 
 
 ### <53>
+
+Appliquer des espaces insécables avant la ponctuation qui l'exige :
+
+- Chercher : `[ \S]<!---->([:;!?»])`\
+	<!--il ne faut pas capturer le caractère antérieur sinon on peut détruire des notes de bas de page-->
+	
+	- `[`*espace justifiante*`\S]` On cherche une espace justifiante ou un caractère qui est tout sauf une espace,\
+	- `([:;!?»])` suivi d'un caractère qui doit obligatoirement être précédé d'une espace insécable
+
+-  Remplacer : `[`*espace insécable*`]$1`\
+	 Pour insérer une espace insécable sous Windows, maintenez enfoncée la touche {Alt et, sur le pavé numérique, tapez 0160.}
+
+
+### <54>
 
  Appliquer des espaces insécables après la ponctuation qui l'exige :
 
 - Chercher : `(«)[ ]?`\
 
-- Remplacer : `$1` + [espace insécable]\
+- Remplacer : `$1[`*espace insécable*`]`\
 
 Appliquer des espaces insécables entre une abréviation de type n. ou p. et le nombre qui le suit (*n. 1, p. 24* par exemple) :
 
-- Chercher : `([ ][ntp].)[ ]?(\d)`\
-	 On cherche une séquence qui commence par une espace justifiante,\
-	suivie de la lettre n ou de la lettre p,\
-	suivie d'un point,\
-	suivi de 0 ou 1 espace justifiante,\
-	suivie d'un chiffre.
+- Chercher : `([ ][ntp]<!---->\<!---->.)[ ]?(\d)`\
+	 `[ ]` On cherche une séquence qui commence par une espace justifiante,\
+	`[ntp]` suivie de la lettre n, t ou p,\
+	`<!---->\<!---->.` suivie d'un point,\
+	`[ ]?` suivi de 0 ou 1 espace justifiante,\
+	`\d` suivie d'un chiffre.
 
-- Remplacer : `$1` + [espace insécable] + `$2`
+-  Remplacer : `$1[`*espace insécable*`]$2`
 
 

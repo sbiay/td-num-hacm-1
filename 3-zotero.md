@@ -616,23 +616,33 @@ Il faut par conséquent intégrer entièrement la référence de l'ouvrage recen
 
 [comment30]: <41> (Il manque le numéro de la revue et la page…)
 
+### <42>
+
+**Balises utiles** pour la typographie à l'intérieur des champs :
+
+- Italique : `<i>` … `</i>` pour *italics*
+- Exposant : `<sup>` … `</sup>` pour *superscript*
+- Petites majuscules :\
+	`<span style="font-variant:small-caps;">` … `</span>`
+
 
 <a id='t2-5'/>
 
 ## Indexer des types de références complexes 
 
-### <42>
-
-Zotero est un **outil généraliste** qui n'a pas été conçu pour les sciences historiques.
-
-Ou touche à ses limites lorsqu'il s'agit de citer des **sources éditées dans un recueil, dans des œuvres complètes, ou citées depuis leur traduction**.
-
-
 ### <43>
 
-Problème très fréquent pour les antiquisants et modernistes\
-Par exemple, *L'abbaye de Fleury en l'an mil* est un recueil de sources éditées
+Zotero est un **outil généraliste** qui n'a pas été conçu pour les sciences historiques
 
+Ou touche à ses limites lorsqu'il s'agit de citer des **sources éditées** dans un recueil, dans des œuvres complètes, ou citées depuis leur traduction
+
+
+### <44>
+
+Le recueil de sources éditées est très fréquent chez les antiquisants et médiévistes.
+
+
+**Un recueil : *L'abbaye de Fleury en l'an mil***\
 Pour citer une source de ce recueil, par exemple *Vita et passio sancti Abbonis* par Aimoin de Fleury, p. 25-38<!--cette pagination est inventée-->, je dois adopter la typographie suivante :
 
 - Aimoin de Fleury, *Vita et passio sancti Abbonis*, éd. Robert-Henri Bautier, Gillette Tyl-Labory, dans *L'abbaye de Fleury en l'an mil*, éd. Robert-Henri Bautier, Gillette Tyl-Labory, Anselme Davril, Lin Donnat, Paris, CNRS éd, 2004 (Sources d'histoire médiévale, 32), p. 25-38.
@@ -640,7 +650,7 @@ Pour citer une source de ce recueil, par exemple *Vita et passio sancti Abbonis*
 Le titre du texte *ET* le titre de la monographie doivent être en italique.
 
 
-### <44>
+### <45>
 
 
 Pour citer une référence comportant deux parties de titres en italique, il faut :
@@ -651,12 +661,12 @@ Pour citer une référence comportant deux parties de titres en italique, il fau
 Le style **NantHA** y répond.
 
 
-### <45>
+### <46>
+
 
 - Importer et nettoyer [cette notice](https://catalogue.bnf.fr/ark:/12148/cb42415179d)
 
-[comment32]: <45> (Changer éd. en trad.)
-
+[comment32]: <46> (Changer éd. en trad.)
 
 - **Dupliquer** la réf. du livre
 
@@ -670,14 +680,28 @@ Le style **NantHA** y répond.
 
 - Chercher dans le catalogue de la BNF le lieu et la maison d'édition originale et les ajouter dans **Edition** avant la date
 
-- Contrôler le résultat via l'**Editeur de style**.
+- Contrôler le résultat via l'**Editeur de style**
 
+
+### <47>
+
+**Les ressources numériques**
+
+- Importer [cette notice d'œuvre](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
+
+- Les notices ont rarement des auteurs ; c'est le nom de l'institution responsable de la ressource qui doit être renseigné dans le champ **Auteur**
+
+- Compléter les informations dans la mesure du possible
+
+- Contrôler le résultat via l'**Editeur de style**
+
+<!--
 
 <a id='t2-6'/>
 
 ## Organiser ses collections par mots-clés 
 
-### <46>
+### <48>
 
 Une fois l'import effectué :
 
@@ -690,7 +714,7 @@ Maintenant notre recherche est noyée dans la masse…
 Comment retrouver les références qui concernent l'abbaye sachant que selon, les références, elles peuvent désigner la désigner sous le nom de Fleury ou de Saint-Benoît-sur-Loire ?
 
 
-### <47>
+### <49>
 
 Comme toute nos réf.
 avaient « Gauzlin » dans le titre, on peut les retrouver facilement toutes les trois.
@@ -705,7 +729,7 @@ En important le livre qui contient ce chapitre, on a rapatrié des mots-clés de
 - Saisir `Saint-Benoît-sur-Loire (Fleury)`
 
 
-### <48>
+### <50>
 
 Notre marqueur `Saint-Benoît-sur-Loire (Fleury)` s'est ajouté à la liste qui doit apparaître dans la fenêtre placée sous les dossiers de la bibliothèque
 
@@ -716,7 +740,7 @@ Notre marqueur `Saint-Benoît-sur-Loire (Fleury)` s'est ajouté à la liste qui 
 Notre marqueur a bien été ajouté à toute la sélection
 
 
-### <49>
+### <51>
 
 Si je fais une nouvelle recherche dans ma collection avec « Saint-Benoît-sur-Loire » ou « Fleury », je suis sûr de trouver mes références
 
@@ -732,7 +756,7 @@ Je vous conseille de ne pas récupérer automatiquement les marqueurs lors de l'
 
 ## Créer des recherches dynamiques 
 
-### <50>
+### <52>
 
 Gérer des marqueurs demande beaucoup de constance.
 Notre objectif ici est de retravailler ponctuellement sur l'abbaye Saint-Benoît-sur-Loire.
@@ -743,7 +767,7 @@ Mettons que l'on n'ait pas créé de marqueur :
 - **Effacer**
 
 
-### <51>
+### <53>
 
 Il est très commode de créer une recherche dynamique :
 
@@ -754,23 +778,32 @@ Il est très commode de créer une recherche dynamique :
 - Enregistrer la recherche, en donnant le nom que vous voulez
 
 Notre recherche se mettra à jour automatiquement et on constate qu'elle concerne toutes les collections de la bibliothèque (y compris nos `sources`).
+-->
 
 
 <a id='t3'/>
 
 # Citer la bibliographie dans le traitement de texte
-[comment35]: <51> (TITRE1)
+[comment35]: <53> (TITRE1)
 
 
-### <52>
+### <54>
 
 Pour mettre en forme la bibliographie à la fin de votre mémoire, on ne fera pas appel au bouton **Add/Édit Bibliography** dans le traitement de texte, car on mélangerait alors sources et études.
 
-- Supprimer le contenu de la bibliographie de `vertus-etape-3.odt`
+- Insérer les références sur lesquelles on a travaillé dans le fichier **modele-memoire.odt**
 - Créer des Titre 2 pour « Sources » et pour « Études »
 - Dans Zotero, cliquer droit sur chacune des collections pertinentes > **Créer une bibliographie à partir de la sélection**
 - Bien choisir le style souhaité et le **mode de création** : Bibliographie
 - **Méthode de création** : coller dans le presse-papier
 - Enfin, coller le contenu du presse-papier dans le traitement de texte.
 
-Il ne reste plus qu'à appliquer un petit style de paragraphe pour présenter correctement la bibliographie (avec un retrait à gauche de 0,5cm sauf pour la 1^re^ ligne…
+Il ne reste plus qu'à appliquer le style de paragraphe **Bibliographie 1** pour présenter correctement la bibliographie (avec un retrait à gauche de 0,5cm sauf pour la 1^re^ ligne…
+
+
+### <55>
+
+Zotero ne peut pas produire des références absolument parfaites…
+Il restera toujours des finalisations et nettoyages typographiques à réaliser **à la main**
+
+Avant de procéder aux ultimes finitions, on crée une copie destinée à la seule impression, où l'on casse les liens vers la base de données Zotero, via le bouton **Unlink citations** dans LO Writer
