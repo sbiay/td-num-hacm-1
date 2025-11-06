@@ -643,9 +643,9 @@ Le recueil de sources éditées est très fréquent chez les antiquisants et mé
 
 
 **Un recueil : *L'abbaye de Fleury en l'an mil***\
-Pour citer une source de ce recueil, par exemple *Vita et passio sancti Abbonis* par Aimoin de Fleury, p. 25-38<!--cette pagination est inventée-->, je dois adopter la typographie suivante :
+Pour citer une source de ce recueil, par exemple *Vita et passio sancti Abbonis* par Aimoin de Fleury, p. 42-137<!--cette pagination est inventée-->, je dois adopter la typographie suivante :
 
-- Aimoin de Fleury, *Vita et passio sancti Abbonis*, éd. Robert-Henri Bautier, Gillette Tyl-Labory, dans *L'abbaye de Fleury en l'an mil*, éd. Robert-Henri Bautier, Gillette Tyl-Labory, Anselme Davril, Lin Donnat, Paris, CNRS éd, 2004 (Sources d'histoire médiévale, 32), p. 25-38.
+- Aimoin de Fleury, *Vita et passio sancti Abbonis*, éd. Robert-Henri Bautier, Gillette Tyl-Labory, dans *L'abbaye de Fleury en l'an mil*, éd. Robert-Henri Bautier, Gillette Tyl-Labory, Anselme Davril, Lin Donnat, Paris, CNRS éd, 2004 (Sources d'histoire médiévale, 32), p. 42-137.
 
 Le titre du texte *ET* le titre de la monographie doivent être en italique.
 
