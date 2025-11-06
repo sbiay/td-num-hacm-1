@@ -480,7 +480,7 @@ Chercher et exporter P. Cabanne, *Honoré Daumier : témoin de la comédie hu
 
 ### <31>
 
-Réitérer l'opération pour *Daumier, 1808-1879* [*catalogue d'exposition, Ottawa, National Gallery of Canada, Ottawa, 11 juin-6 sept. 1999, Paris, Galeries nationales du Grand Palais, 5 oct.-3 janv. 2000, Washington, The Phillips Collection, 19 fév.-14 mai 2000*], éd. H. Loyrette, Ottawa, 1999.
+Réitérer l'opération pour *Daumier, 1808-1879* [*cat. exp., Ottawa, National Gallery of Canada, Ottawa, 11 juin-6 sept. 1999, Paris, Galeries nationales du Grand Palais, 5 oct.-3 janv. 2000, Washington, The Phillips Collection, 19 fév.-14 mai 2000*], éd. H. Loyrette, Paris, 1999.
 
 
 ### <32>
@@ -806,4 +806,4 @@ Il ne reste plus qu'à appliquer le style de paragraphe **Bibliographie 1** pour
 Zotero ne peut pas produire des références absolument parfaites…
 Il restera toujours des finalisations et nettoyages typographiques à réaliser **à la main**
 
-Avant de procéder aux ultimes finitions, on crée une copie destinée à la seule impression, où l'on casse les liens vers la base de données Zotero, via le bouton **Unlink citations** dans LO Writer
+Avant de procéder aux ultimes finitions, on crée une copie destinée à la seule impression, où l'on casse les liens vers la base de données Zotero, via le bouton **Unlink citations** dans LO Writer
