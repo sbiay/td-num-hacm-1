@@ -463,10 +463,43 @@ On peut ajouter un second champ format :
 Champs moins utiles ou non pertinents pour cette œuvre :
 
 - Collaborateur :
-	- *Pour l'estampe* : le graveur
+	- *Pour une estampe* : le graveur (si différent du dessinateur)
 - Editeur (*Publisher*)
-	- *Pour l'estampe* : l'éditeur
+	- *Pour une estampe* : l'éditeur
 - Rights
 - Langue
 - Relation : 
 	- *Pour une archive* : on mettrait ici le lien vers la notice dans l'inventaire de recherche
+
+
+### <32>
+
+
+**Image** : [*Les conseils d'un Crispin politique*](img/charivari-1851-05-12_bpt6k3057446h_f3.jpg)
+
+
+- Naviguer jusqu'au dossier  `bib-num\sources\presse\charivari…`
+- Importer l'image dans Tropy
+- Passer en Dublin Core
+- Renseigner les champs en vous aidant du lien [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k3057446h/f3)
+- **Source** est ici à utiliser pour la référence de la publication
+- **Date** : privilégier le format ISO ainsi : `1851-05-12`
+
+
+### <33>
+
+**Analyser l'objet**
+
+Si l'on double-clique sur l'œuvre :
+
+- On peut associer des **notes** à l'objet dans son ensemble
+- Ou encore, avec l'**outil de sélection** placé au dessus de la reproduction, définir des **zones d'intérêt**, et rédiger une note pour chacune
+
+
+<!--Indexer un document d'archive 
+photo
+https://bibliotheque-numerique.inha.fr/viewer/17261/?offset=#page=458
+ 
+notice :
+https://bibliotheque-numerique.inha.fr/collection/item/17261-autographes-carton-10-peintres-cou-dav
+-->
