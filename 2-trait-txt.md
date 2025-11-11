@@ -255,8 +255,9 @@ de chaque style.
 
 On souhaite en particulier **espacer les titres et les blocs de texte**, en laissant un grand espace sous le Titre 1.
 
-Il ne faut pas sauter de ligne avec la touche **Entrée**\
---- toute personne qui fait cela sera excommuniée ! ---\
+
+### <14>
+
 mais modifier le Titre 1 en intervenant sur les propriétés\
 de **Retraits et espacement** > Espacement :
 
@@ -264,7 +265,7 @@ de **Retraits et espacement** > Espacement :
 - Sous le par. : 2 cm
 
 
-### <14>
+### <15>
 
 Appliquer les autres modifications au Titre 1 :
 
@@ -278,7 +279,7 @@ Appliquer les autres modifications au Titre 1 :
 - Effet de caractères > Effets > Casse : petites majuscules
 
 
-### <15>
+### <16>
 
 **Pour le Titre 2** :
 
@@ -292,7 +293,7 @@ Appliquer les autres modifications au Titre 1 :
 	- Taille : 20 pt
 
 
-### <16>
+### <17>
 
 **Pour le Titre 3** :
 
@@ -306,7 +307,7 @@ Appliquer les autres modifications au Titre 1 :
 	- Taille : 16 pt
 
 
-### <17>
+### <18>
 
 **Pour le Titre 4** :
 
@@ -326,14 +327,14 @@ Appliquer les autres modifications au Titre 1 :
 <a id='t3'/>
 
 # Mettre en page un mémoire
-[comment26]: <17> (TITRE1)
+[comment26]: <18> (TITRE1)
 
 
 <a id='t3-1'/>
 
 ## Les composants du volume de texte 
 
-### <18>
+### <19>
 
 On a désormais une mise en page très satisfaisante pour un article de revue.
 Mais un mémoire est une composition plus complexe, avec :
@@ -357,7 +358,7 @@ Deux règles à suivre :
 2. Gérer la structure du document (mise en forme et mise en page) dès le début de la rédaction
 -->
 
-### <19>
+### <20>
 
 
 Une page de titre\
@@ -368,14 +369,14 @@ Une page de titre\
 
 - Peut omettre le numéro de page
 
-[comment28]: <19> (Exemple privilégié : G. Bührer-Thierry et C. Mériaux, *La France avant la France : 481-888*, Paris, 2010.)
+[comment28]: <20> (Exemple privilégié : G. Bührer-Thierry et C. Mériaux, *La France avant la France : 481-888*, Paris, 2010.)
 
 
 <a id='t3-2'/>
 
 ## Les pages de titre 
 
-### <20>
+### <21>
 
 On imagine que notre **Titre 1** est un titre de chapitre
 
@@ -385,14 +386,14 @@ Il faut à présent créer une **pièce de titre** pour l'ensemble du volume de 
 - Écrire un titre de mémoire (réel ou inventé)
 - Chercher parmi tous les styles de paragraphes préexistants **Titre principal** et l'appliquer au titre du mémoire
 
-### <21>
+### <22>
 
 Quelques règles à suivre pour la pièce de titre :
 
 - Distinguer titre et sous-titre par des choix typographiques ; ne pas les séparer par de la ponctuation, comme `:`
 
 
-### <22>
+### <23>
 
 On veut que chaque chapitre ou élément de paratexte\
 (ici *Illustrations*) commence au début d'une page, il faut donc **modifier le Titre 1** :
@@ -405,14 +406,14 @@ Désormais notre chapitre ainsi que la table des illustrations commencent en hau
 
 **N.B.** : un titre ne possède jamais de ponctuation finale. On n'écrit pas : `Bibliographie :`
 
-### <23>
+### <24>
 
 Si l'on veut faire une mise en page dans les règles de l'art,\
 il faut que nos Titre 1 soient **sur une page impaire** (à droite quand on tient le mémoire imprimé ouvert entre ses mains),\
 or votre titre *Réinventer les Vertus…* se trouve actuellement sur la p. 2…
 
 
-### <24>
+### <25>
 
 Il faut donc définir des **Styles de pages** (bouton situé dans le même menu que Styles de paragraphes et Styles de caractères).
 
@@ -425,13 +426,13 @@ Une fois appliqué, modifier ce style Première page :
 - **Général** > Style de suite > Page gauche
 
 
-### <25>
+### <26>
 
 <!---->
 Désormais la première page (impaire) est suivie d'une alternance de **Page gauche** (paire) et de **Page droite** (impaire) ; l'information doit apparaître tout en bas de la fenêtre de LibreOffice quand vous placez votre curseur dans les différentes pages du document.
 
 
-### <26>
+### <27>
 
 Nos débuts de chapitres, table des ill.
 et biblio, bref, les **Titre 1** doivent toujours être placés à droite et se comporter comme la première page :
@@ -446,7 +447,7 @@ Une page blanche invisible a été créée entre la page 1 et la page 3.
 
 ## Numéros de pages et titres courants 
 
-### <27>
+### <28>
 
 **Titre courant** : *titre imprimé en haut ou en bas de chaque page et rappelant le titre <!--de l'ouvrage ou--> d'une partie de l'ouvrage<!--cnrtl-->.*
 
@@ -460,7 +461,7 @@ Pour faire apparaître en **titre courant** nos titres de chapitres, de table de
 [^400]: On crée cette numérotation mais on ne l'affiche pas, pour ne pas se retrouver avec « Chapitre 2 Illustrations » ! C'est pourquoi on opte pour *aucun*. On écrira plus tard « Chapitre 1 » à la main.
 
 
-### <28>
+### <29>
 
 Il ne reste plus qu'à ajouter des **numéros de pages**\
 et des **titres courants**.
@@ -475,7 +476,7 @@ Pour poser ces numéros et ces titres courants, il faut commencer par activer le
 - Réitérer pour **Page gauche**
 
 
-### <29>
+### <30>
 
 On peut désormais ajouter les numéros :
 
@@ -485,7 +486,7 @@ On peut désormais ajouter les numéros :
 - Réitérer pour créer les numéros de la page droite, où on alignera les numéros à droite
 
 
-### <30>
+### <31>
 
 On peut désormais ajouter les titres courants :
 
@@ -499,7 +500,7 @@ On peut désormais ajouter les titres courants :
 **Aligner à droite** le titre courant créé.
 
 
-### <31>
+### <32>
 
 On peut afficher les titres courants des sous-parties (Titre 2) sur les pages gauches :
 
@@ -515,13 +516,13 @@ On peut afficher les titres courants des sous-parties (Titre 2) sur les pages ga
 
 ## Imprimer 
 
-### <32>
+### <33>
 
  Félicitations !\
  Vous avez maintenant une mise en page très professionnelle !
 
 
-### <33>
+### <34>
 
 Vous pouvez transformer le document en pdf comme pour l'imprimer en recto-verso :
 
@@ -538,14 +539,14 @@ La p. 2, au verso de la page de titre, reste blanche et sans numéro pour que l
 <a id='t4'/>
 
 # Compléter le paratexte
-[comment32]: <33> (TITRE1)
+[comment32]: <34> (TITRE1)
 
 
 <a id='t4-1'/>
 
 ## Table des matières 
 
-### <34>
+### <35>
 
 Notre titre de chapitre n'en est pas vraiment un…\
 On voudrait **ajouter « Chapitre 1 »** au-dessus de « Réinventer les Vertus à Cluny », comme dans le modèle pdf. 
@@ -555,7 +556,7 @@ On voudrait **ajouter « Chapitre 1 »** au-dessus de « Réinventer les Vert
 Pour revenir correctement à la ligne après « Chapitre 1 », il faut faire un *retour chariot* : **Maj + Entrée**
 
 
-### <35>
+### <36>
 
 Il est préférable de mettre en forme « Chapitre 1 » de façon plus discrète que le contenu du titre qu'il introduit.
 
@@ -568,7 +569,7 @@ Mais comme « Chapitre 1 » doit rester en style de paragraphe Titre 1, il fau
 	- Police > Taille > 22 pt
 
 
-### <36>
+### <37>
 
 On va à présent ajouter la table des matières pour de bon.\
 Faire une **sauvegarde maintenant**, car le logiciel peut planter !
@@ -582,7 +583,7 @@ Faire une **sauvegarde maintenant**, car le logiciel peut planter !
 [^401]: Si l'opération fait planter LibreOffice Writer, décaler la fenêtre de récupération de document sur le côté et décocher **Aperçu** dans la fenêtre de gestion de la table des matières. Redémarrer en récupérant le document.
 
 
-### <37>
+### <38>
 
 Nous avons une table des matières (TDM), collée à la fin de la table des illustrations.
 
@@ -593,7 +594,7 @@ La solution est toute prête :\
 de nouveaux styles de paragraphes sont apparus dans la liste des **Styles appliqués**, dont **Titre de table des matières**.
 
 
-### <38>
+### <39>
 
 Modifier **Titre de table des matières** pour le faire ressembler au Titre 1 :
 
@@ -608,14 +609,14 @@ Modifier **Titre de table des matières** pour le faire ressembler au Titre 1 :
 - Alignement : centrer
 
 
-### <39>
+### <40>
 
  Pour une meilleure présentation de la TDM,\
 on pourra modifier les styles **Table des matières niveau *n***, afin de hiérarchiser ces niveaux de titres.
 
 <!--
 Page 1 : la pièce de titre <40>
-[comment34]: <39> (TITRE2)
+[comment34]: <40> (TITRE2)
 
 Si vous ouvrez un livre récent imprimé en France et que vous cherchez où est la p. 1 (en remontant depuis les premières pages numérotées), vous arriverez sans doute à la première feuille du livre.
 
@@ -640,7 +641,7 @@ On peut procéder par de la mise en forme directe sur la pièce de titre, car el
 
 ## Illustrations 
 
-### <40>
+### <41>
 
 Pour les VNP seulement❗
 
@@ -660,7 +661,7 @@ Pour insérer une légende :
 - Cliquer droit sur l'image
 - **Insérer une légende…**
 
-### <41>
+### <42>
 
 Pour insérer une table des illustrations à la place de l'existante (conçue pour des illustrations hors texte) :
 
@@ -675,7 +676,7 @@ Pour insérer une table des illustrations à la place de l'existante (conçue po
 
 ## Illustrations 
 
-### <42>
+### <43>
 
 **Il est déconseillé d'insérer les illustrations dans le texte**,\
 car cela joue très souvent en défaveur de :
@@ -690,7 +691,7 @@ Il faut donc constituer un tome d'illustrations à part, au choix :
 - Un fichier créé avec un logiciel de Publication Assistée par Ordinateur (**PAO**).
 
 
-### <43>
+### <44>
 
 Les logiciels de PAO les plus connus sont : 
 
@@ -699,12 +700,12 @@ Les logiciels de PAO les plus connus sont :
 - QuarkXPress
 - Scribus : **le seul gratuit** et pour PC comme pour Mac
 
-[comment37]: <43> (Scribus fonctionne également sous Ubuntu.)
+[comment37]: <44> (Scribus fonctionne également sous Ubuntu.)
 
 Vous voulez faire au plus simple ?\
 LibreOffice Writer avec une seule image par page !
 
-### <44>
+### <45>
 
 Les illustrations étant hors du texte, on va gérer leur numérotation à partir de la **table des illustrations** de notre document :
 
@@ -713,7 +714,7 @@ Les illustrations étant hors du texte, on va gérer leur numérotation à parti
 	visible si l'on affiche tous les styles
 
 
-### <45>
+### <46>
 
 Il faut quelque peu modifier ce style pour en faire une liste numérotée du type Fig. 1, Fig. 2, etc.
 
@@ -730,7 +731,7 @@ Modifier le style **Illustration** avec les caractéristiques suivantes :
 		- Après : *rien*
 
 
-### <46>
+### <47>
 
 Maintenant que notre table des illustrations est établie,\
 on peut ajouter des renvois aux figures dans le texte :
@@ -747,10 +748,10 @@ Maintenant, si j'ajoute des éléments à ma table des illustrations, les numér
 <a id='t5'/>
 
 # Importer/exporter un style
-[comment38]: <46> (TITRE1)
+[comment38]: <47> (TITRE1)
 
 
-### <47>
+### <48>
 
 Faire un style de document, c'est bien ; pouvoir le réutiliser, c'est mieux !
 On va exporter le style que l'on vient d'élaborer pour l'appliquer à un nouveau document.
@@ -762,7 +763,7 @@ On va exporter le style que l'on vient d'élaborer pour l'appliquer à un nouvea
 Le style est sauvegardé.
 
 
-### <48>
+### <49>
 
 Pour appliquer le style à un autre document :
 
@@ -775,14 +776,14 @@ Pour appliquer le style à un autre document :
 <a id='t6'/>
 
 # Règles typographiques
-[comment39]: <48> (TITRE1)
+[comment39]: <49> (TITRE1)
 
 
 <a id='t6-1'/>
 
 ## Les espaces insécables 
 
-### <49>
+### <50>
 
 En typographie français, une espace insécable --- oui, espace est féminin en typographie --- doit précéder :
 
@@ -793,7 +794,7 @@ En typographie français, une espace insécable --- oui, espace est féminin en 
 - Et séparer les guillemets français d'une citation
 
 
-### <50>
+### <51>
 
 - *Lexique des règles typographiques en usage à l'Imprimerie nationale* \[1^re^ éd. 1971\], Paris, Impr. nationale, 2002, [en ligne](https://archive.org/details/lexique-des-regles-typographiques-en-usage-a-l-imprimerie-nationale/mode/2up).
 
@@ -804,7 +805,7 @@ D'autres codes typographiques :
 https://www.associationdescorrecteurs.fr/outils/codes-typo/
 -->
 
-### <51>
+### <52>
 
  On fait une copie de sauvegarde avant !\
 car on va intervenir massivement sur le texte…
@@ -813,7 +814,7 @@ car on va intervenir massivement sur le texte…
 Prendre le fichier **modele-memoire.odt** sur Madoc
 
 
-### <52>
+### <53>
 
 Il est fréquent d'ajouter par erreurs plusieurs espaces les unes derrières les autres ; pour ramener leur nombre, quel qu'il soit, à 1 :
 
@@ -823,30 +824,30 @@ Il est fréquent d'ajouter par erreurs plusieurs espaces les unes derrières les
 
 - Chercher : `\s2,`\
 
-- Remplacer : `[`espace justifiante`]`
+- Remplacer par une espace justifiante (espace normale)
 
 
-### <53>
+### <54>
 
 Appliquer des espaces insécables avant la ponctuation qui l'exige :
 
-- Chercher : `[ \S]<!---->([:;!?»])`\
+- Chercher : `[ \S]<!---->([:;!? »])`\
 	<!--il ne faut pas capturer le caractère antérieur sinon on peut détruire des notes de bas de page-->
 	
 	- `[`*espace justifiante*`\S]` On cherche une espace justifiante ou un caractère qui est tout sauf une espace,\
-	- `([:;!?»])` suivi d'un caractère qui doit obligatoirement être précédé d'une espace insécable
+	- `([:;!? »])` suivi d'un caractère qui doit obligatoirement être précédé d'une espace insécable
 
 -  Remplacer : `[`*espace insécable*`]$1`\
 	 Pour insérer une espace insécable sous Windows, maintenez enfoncée la touche {Alt et, sur le pavé numérique, tapez 0160.}
 
 
-### <54>
+### <55>
 
  Appliquer des espaces insécables après la ponctuation qui l'exige :
 
 - Chercher : `(«)[ ]?`\
 
-- Remplacer : `$1[`*espace insécable*`]`\
+- Remplacer : `$1` *et une espace insécable*\
 
 Appliquer des espaces insécables entre une abréviation de type n. ou p. et le nombre qui le suit (*n. 1, p. 24* par exemple) :
 
@@ -857,6 +858,6 @@ Appliquer des espaces insécables entre une abréviation de type n. ou p. et l
 	`[ ]?` suivi de 0 ou 1 espace justifiante,\
 	`\d` suivie d'un chiffre.
 
--  Remplacer : `$1[`*espace insécable*`]$2`
+-  Remplacer : `$1` *une espace insécable* `$2`
 
 
