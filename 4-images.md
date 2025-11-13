@@ -18,7 +18,7 @@ Plan :
 3. [Récupérer des images en HD](#t3)
 4. [Organiser une collection d'images avec Tropy](#t4)
 	1. [Démarrer ](#t4-1)
-	2. [Métadonnées : créateur ](#t4-2)
+	2. [Métadonnées DC ](#t4-2)
 
 <!--FINET-->
 
@@ -40,7 +40,7 @@ Plan :
 
 
 - Créer un dossier sur le PC (on n'aura pas besoin de conserver son contenu passé la séance)
-- Accéder à [cette notice](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
+- Accéder à [\textcolor{bluecette notice}](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
 - Télécharger l'image
 - L'archiver dans une arborescence de dossiers incluse dans le dossier `daumier`
 
@@ -66,9 +66,9 @@ On associe de l'information à l'image de trois manières :
 ![](/home/sbiay/nextcloud/enseignement/cours/NUM1/daumier/collections/france/paris-louvre/amateurs-estampes-RF-4036/768.jpg)
 
 
-- Accéder à [cette notice](https://arts-graphiques.louvre.fr/detail/oeuvres/1/16708-Les-amateurs-destampes-max)
+- Accéder à [\textcolor{bluecette notice}](https://arts-graphiques.louvre.fr/detail/oeuvres/1/16708-Les-amateurs-destampes-max)
 - Télécharger l'image
-- Consulter les métadonnées grâce au logiciel **XnView MP**, préinstallé sur les PC de la salle ou téléchargeable [ici](https://www.xnview.com/fr/xnview/)
+- Consulter les métadonnées grâce au logiciel **XnView MP**, préinstallé sur les PC de la salle ou téléchargeable [\textcolor{blueici}](https://www.xnview.com/fr/xnview/)
 
 
 ### <5>
@@ -86,7 +86,7 @@ On associe de l'information à l'image de trois manières :
 
 Les droits de reproduction détenus par la RMN coûtent cher…
 
-- Télécharger [cette image](https://commons.wikimedia.org/wiki/File:Honor%C3%A9_daumier,_crispino_e_scapino,_1864_ca._02.JPG) utilisable gratuitement
+- Télécharger [\textcolor{bluecette image}](https://commons.wikimedia.org/wiki/File:Honor%C3%A9_daumier,_crispino_e_scapino,_1864_ca._02.JPG) utilisable gratuitement
 - Renseigner les métadonnées de Crédit
 - Insérer le type de licence dans le champ **Crédits**
 	
@@ -107,8 +107,8 @@ Les droits de reproduction détenus par la RMN coûtent cher…
 	- Respecter les conventions de nommages (pas d'espace, etc.) ?
 	- Faire facilement le lien entre Zotero et le dossier ?
 
-- **Une solution** de nommage pour les reproductions de réf. bibliographiques : l'extension [BetterBibTex](https://retorque.re/zotero-better-bibtex/)\
-	pour Zotero [ici](https://github.com/retorquere/zotero-better-bibtex/releases/latest)
+- **Une solution** de nommage pour les reproductions de réf. bibliographiques : l'extension [\textcolor{blueBetterBibTex}](https://retorque.re/zotero-better-bibtex/)\
+	pour Zotero [\textcolor{blueici}](https://github.com/retorquere/zotero-better-bibtex/releases/latest)
 
 ### <8>
 
@@ -183,7 +183,7 @@ Si l'on souhaite modifier les couleurs ou le contraste des images :
 ### <12>
 
 
-**Image** : [La promenade du critique influent, estampe, BnF](img/paris-bnf_critique-salon.jpeg)
+**Image** : [La promenade du critique influent, estampe, BnF](img/charivari-1865-06-24_btv1b525144764_f1.jpg)
 
 
 1. Accéder à [cette page](https://gallica.bnf.fr/ark:/12148/btv1b525144764/f1) sur Gallica
@@ -219,11 +219,11 @@ URL de l'image sur l'API IIIF en résolution maximale :\
 
 L'API permet de modifier le fichier image en intervenant sur les paramètres de son URL. Cliquer sur les points suivants et regarder en quoi l'URL est différente :
 
-1. [Rotation à 90°](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/f43/full/full/90/native.jpg)
+1. [\textcolor{blueRotation à 90°}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/f43/full/full/90/native.jpg)
 
-2. [Résolution limitée à 1200 px de largeur](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/f43/full/1200,/0/native.jpg)
+2. [\textcolor{blueRésolution limitée à 1200 px de largeur}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/f43/full/1200,/0/native.jpg)
 
-2. [Résolution limitée à 1200 px de hauteur](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/f43/full/,1200/0/native.jpg)
+2. [\textcolor{blueRésolution limitée à 1200 px de hauteur}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/f43/full/,1200/0/native.jpg)
 -->
 
 ### <15>
@@ -231,7 +231,7 @@ L'API permet de modifier le fichier image en intervenant sur les paramètres de 
 
 Un autre moyen d'accéder à la HD de certaines images zoomables :
 
-1. Copier l'URL `https://gallica.bnf.fr/ark:/12148/btv1b525144764/f1` et la coller dans [Dezoomify](https://dezoomify.ophir.dev/)
+1. Copier l'URL `https://gallica.bnf.fr/ark:/12148/btv1b525144764/f1` et la coller dans [\textcolor{blueDezoomify}](https://dezoomify.ophir.dev/)
 
 2. Télécharger cette nouvelle image et, dans XnView, la comparer à la précédente, en consultant la métadonnée « Dimension »
 
@@ -244,7 +244,7 @@ Pour la transformer en Jpeg plus léger dans XnView : Faire un clic droit sur l
 
 Des extensions de navigateur pour aller plus vite :
 
-1. Dezoomify est aussi une extension de Firefox [ici](https://addons.mozilla.org/fr/firefox/addon/dezoomify/) :
+1. Dezoomify est aussi une extension de Firefox [\textcolor{blueici}](https://addons.mozilla.org/fr/firefox/addon/dezoomify/) :
 
 	- Installer l'extension
 	- Se placer sur une page avec une image zoomable
@@ -252,7 +252,7 @@ Des extensions de navigateur pour aller plus vite :
 	- Zoomer sur l'image
 	- Si l'extension change d'aspect, recliquer dessus…
 
-2. [Geobib](http://www.geobib.fr/tool/iiif/) peut télécharger des images HD et en jpeg de **Gallica** en un clic
+2. [\textcolor{blueGeobib}](http://www.geobib.fr/tool/iiif/) peut télécharger des images HD et en jpeg de **Gallica** en un clic
 
 
 <!--
@@ -261,14 +261,14 @@ Des extensions de navigateur pour aller plus vite :
 Des sites publics d'archives
 https://archives.valdoise.fr/ark:/18127/1030621.1415874/dao/0
 
-1. Manuscrits et livres rares : voir la plateforme [**Biblissima**](https://iiif.biblissima.fr/collections/)
+1. Manuscrits et livres rares : voir la plateforme [\textcolor{blue**Biblissima**}](https://iiif.biblissima.fr/collections/)
 
-2. Inventaires des collections par l'[**Université de Leyde**](https://www.library.universiteitleiden.nl/binaries/content/assets/ul2ub/bijzondere-collecties/list-of-iiif-collections.pdf)
+2. Inventaires des collections par l'[\textcolor{blue**Université de Leyde**}](https://www.library.universiteitleiden.nl/binaries/content/assets/ul2ub/bijzondere-collecties/list-of-iiif-collections.pdf)
 
 
 ### <18>
 
-1. Le fichier contenant toutes les URL des images s'intitule comme ceci : [https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/manifest.json](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/manifest.json)
+1. Le fichier contenant toutes les URL des images s'intitule comme ceci : [\textcolor{bluehttps://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/manifest.json}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/manifest.json)
 
 2. Pour trouver les URL des images, ouvrir ce fichier dans Firefox
 
@@ -295,7 +295,7 @@ https://archives.valdoise.fr/ark:/18127/1030621.1415874/dao/0
 [comment9]: <19> ([^401]: @leePersonalImageManagement2021.)
 
 
-Télécharger et installer [Tropy](https://tropy.org/)
+Télécharger et installer [\textcolor{blueTropy}](https://tropy.org/)
 
 Principes et limites :\
 
@@ -316,35 +316,74 @@ Par conséquent, il permet de structurer et de re-structurer une collection d'im
 
 [comment10]: <19> (À un stade exploratoire, pour annoter des collections et des objets. Ne permet pas de formaliser un corpus, mais de créer des listes d'objets ou des listes de collections par intérêt. Grande **malléabilité** du mode de classement : faire et défaire des listes est simple, on agrège aisément des objets.)
 
+
 ### <20>
 
 - Lancer le programme
 - Nommer le projet `daumier`
 - L'enregistrer sous
+
+Interface similaire à Zotero, mais logiciel conçu pour créer des **objets** (par exemple, une œuvre d'art, une archive, etc.) que l'on décrit au moyen d'un **modèle de saisie**.
+
+- Accéder par le menu à **Edition** > Préférences
+- Le logiciel en propose plusieurs pour les **objets** :\
+
+	- Tropy Generic
+	- Dublin Core
+	- Tropy Correspondence
+
+- Choisir par défaut **Dublin Core**\
+	
+	très utilisé pour les données patrimoniales pour son interopérabilité : voir le descriptif de la BNF [\textcolor{blueici}](https://www.bnf.fr/fr/dublin-core)
+
+### <21>
+
+On peut aussi créer son propre modèle et ainsi personnaliser le catalogage de ses objets :
+
+- **Préférences** > Modèles de saisie
+- Donner un nom
+- **Créer**
+- Les propriétés proposées sont très nombreuses…
+
+La création d'un modèle personnel suppose de bien connaître et comprendre les modèles de données existant (skos, foaf, rdfs) et les propriétés qu'ils proposent\
+C'est plutôt réservé aux experts en ingénierie documentaire
+
+
+### <22>
+
 - Récupérer l'archive **daumier.zip**
-- L'extraire 
+- L'extraire (sur le Bureau ou dans le dossier Documents)
 - Naviguer jusqu'au sous-dossier `paris-orsay\crispin-scapin-RF-2057`
 - Faire glisser les deux images dans Tropy
 - Puis, dans Tropy, faire glisser une image sur l'autre pour les regrouper en un seul **Objet**
 - Naviguer jusqu'au dossier `paris-louvre\amateurs-estampes-RF-4036` pour avoir un second Objet
 
-
 <a id='t4-2'/>
 
-## Métadonnées : créateur 
+## Métadonnées DC 
 
-### <21>
+### <23>
+
+
+**Mission**\
+Renseigner les métadonnées Dublin Core pour les objets créés :
+
+- En respectant la définition de chaque propriété DC
+- En utilisant des vocabulaires contrôlés
+
+
+### <24>
 
 - **Créateur** :
 	
-	- Chercher l'artiste dans le répertoire [ULAN](https://www.getty.edu/research/tools/vocabularies/ulan/)
+	- Chercher l'artiste dans le répertoire [\textcolor{blueULAN}](https://www.getty.edu/research/tools/vocabularies/ulan/)
 	- Entrer dans la notice
 	- Copier la forme d'autorité du nom, inscrite en début de page, juste sous **Page link**, avec les parenthèses
 	- Sélectionner un seul objet dans Tropy pour l'instant
 	- Coller
 	- Modifier ensuite le créateur pour ne conserver entre parenthèses que les dates
 
-### <22>
+### <25>
 
 Pour appliquer le même créateur au second objet :
 
@@ -354,23 +393,20 @@ Pour appliquer le même créateur au second objet :
 	- Ouvrir le champ Créateur
 	- Appuyer sur Entrée
 
-Pour le reste des métadonnées, on peut renseigner librement ou adopter un modèle de très utilisé pour les données patrimoniales pour son interopérabilité : [Dublin Core](https://www.bnf.fr/fr/dublin-core)
 
-
-### <23>
+### <26>
 
 
 ![](/home/sbiay/nextcloud/enseignement/cours/NUM1/daumier/collections/france/paris-orsay/crispin-scapin-RF-2057/orsay-1.jpg)
 
 
-- En haut du volet des métadonnées de l'œuvre, passer de *Tropy Generic* à **Dublin Core**
-- Accéder à [la notice](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
+-  Accéder à [\textcolor{bluela notice}](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
 - Renseigner les champs les plus intuitifs :
 	- Titre
 	- Date (pour conserver des dates triables, rejeter la partie texte entre parenthèses : `1864 (vers)`)
 
 
-### <24>
+### <27>
 
 **Type** définit la nature ou le genre du contenu, Dublin Core recquiert l'un des douze types suivants :\
 
@@ -390,28 +426,31 @@ Pour le reste des métadonnées, on peut renseigner librement ou adopter un mod�
 
 Mais on va privilégier un thésaurus francophone plus spécifique aux œuvres d'art…
 
-### <25>
+### <28>
 
 
-Parmi les thésaurus de l'INHA (liste complète [ici](https://thesaurus.inha.fr/thesaurus/page/vocabulaires)) :
+Parmi les thésaurus de l'INHA (liste complète [\textcolor{blueici}](https://thesaurus.inha.fr/thesaurus/page/vocabulaires)) :
 
-- Accéder au **Type d'œuvre**, [là](https://thesaurus.inha.fr/thesaurus/page/ark:/54721/8e09cc44-abef-4f14-9761-6c9cb3f63b2d) et trouver le descripteur le plus adapté et le plus précis (en cliquant sur les termes pour descendre dans la hiérarchie)
+- Accéder au **Type d'œuvre**, [\textcolor{bluelà}](https://thesaurus.inha.fr/thesaurus/page/ark:/54721/8e09cc44-abef-4f14-9761-6c9cb3f63b2d) et trouver le descripteur le plus adapté et le plus précis (en cliquant sur les termes pour descendre dans la hiérarchie)
 
 - Copier la donnée dans le champ **Type**
 
-### <26>
+- Conserver ouverts les thésaurus de l'INHA ou les sauvegarder dans des **Marque-pages** (Ctrl + D)
 
+
+### <29>
 
 La définition du champ **source** est difficile à comprendre : « référence à une ressource dont la ressource décrite est dérivée ».\
 En clair, c'est là que l'on renseigne la **cote** du document de manière complète, en incluant le **lieu de conservation**
 
 On utilise un **référentiel d'autorité** pour saisir le nom de l'institution (cela peut éviter de commettre des approximations typographiques) :
 
-- Chercher le musée d'Orsay sur [Data-BNF](https://data.bnf.fr/fr)
+- Chercher le musée d'Orsay sur [\textcolor{blueData-BNF}](https://data.bnf.fr/fr)
 - On saisit l'information en rétablissant la ville, que Data-BNF rejette après un point, en première position suivie d'une virgule
 - Puis le numéro d'inventaire
 
-### <27>
+
+### <30>
 
 Le champ **Identifier** du Dublin Core préconise d'indiquer ici des identifiants techniques univoques, comme l'ISBN pour un livre.
 
@@ -420,14 +459,14 @@ Dans le contexte, on peut y mettre un lien vers la notice du document sur le sit
 - S'assurer que l'on copie un permalien… (l'URL se termine généralement par un code d'identification)
 - Le coller dans Tropy
 
-### <28>
 
+### <31>
 
-Format désigne la manifestation (ou matérialisation) physique ou numérique de la ressource.
+**Format** désigne la manifestation (ou matérialisation) physique ou numérique de la ressource.
 
 Il est recommandé d'y indexer le type de médium, de support ou les dimensions de l'objet.
 
-- Accéder au thésaurus de l'INHA **Techniques**, [ici](https://thesaurus.inha.fr/thesaurus/page/ark:/54721/05085df9-7b57-4aca-b600-fa0309b0cb3c) et trouver le descripteur le plus adapté et le plus précis (en cliquant sur les termes pour descendre dans la hiérarchie)
+- Accéder au thésaurus de l'INHA **Techniques**, [\textcolor{blueici}](https://thesaurus.inha.fr/thesaurus/page/ark:/54721/05085df9-7b57-4aca-b600-fa0309b0cb3c) et trouver le descripteur le plus adapté et le plus précis (en cliquant sur les termes pour descendre dans la hiérarchie)
 
 <!--
 Le plus pertinent, peinture à l'huile, se trouve dans "technique picturale (liant)" :
@@ -435,30 +474,33 @@ https://thesaurus.inha.fr/thesaurus/page/ark:/54721/827a1923-2d1e-4731-adcd-b3d1
 -->
 
 
-### <29>
-
+### <32>
 
 On peut ajouter un second champ format :
 
 - Clic droit sur les métadonnées > **Nouveau champ**
 - Saisir `Format`
-- Accéder au thésaurus de l'INHA **Matériaux**, [ici](https://thesaurus.inha.fr/thesaurus/page/ark:/54721/2275eb81-6e47-4c3c-b1ee-96795edb046c) et trouver le descripteur…
+
+On peut aussi, plus simplement, inscrire plusieurs valeur de le champ unique Format et les séparer par des virgules :
+
+- Accéder au thésaurus de l'INHA **Matériaux**, [\textcolor{blueici}](https://thesaurus.inha.fr/thesaurus/page/ark:/54721/2275eb81-6e47-4c3c-b1ee-96795edb046c) et trouver le descripteur…
 
 
-### <30>
-
+### <33>
 
 - **Sujet** : concerne l'indexation du contenu thématique de la ressource
+	
 	- Tropy associe plus efficacement un volet de **Tags**
-	- On peut y saisir les termes renseignés dans la partie *Indexation* de la notice du musée
+	- On peut y saisir les termes renseignés dans la partie *Indexation* de la notice du musée, mais attention : on ne veut pas se retrouver noyé sous les *tags* ; ils doivent vous servir avant tout à créer des liens entre les objets en fonction de vos questionnements de recherche
+	- Meilleur thésaurus d'œuvres littéraires, comme *Les Fourberies de Scapin* : [\textcolor{blueData-BNF}](https://data.bnf.fr/)
 
-
-- **Couverture** (*Coverage*) : permet de compléter l'indexation en désignant une notion spatio-temporelle
+- **Couverture** (*coverage*) : permet de compléter l'indexation en désignant une notion spatio-temporelle
 
 	- Période
 	- École artistique, etc.
 
-### <31>
+
+### <34>
 
 Champs moins utiles ou non pertinents pour cette œuvre :
 
@@ -472,7 +514,7 @@ Champs moins utiles ou non pertinents pour cette œuvre :
 	- *Pour une archive* : on mettrait ici le lien vers la notice dans l'inventaire de recherche
 
 
-### <32>
+### <35>
 
 
 **Image** : [*Les conseils d'un Crispin politique*](img/charivari-1851-05-12_bpt6k3057446h_f3.jpg)
@@ -480,13 +522,12 @@ Champs moins utiles ou non pertinents pour cette œuvre :
 
 - Naviguer jusqu'au dossier  `bib-num\sources\presse\charivari…`
 - Importer l'image dans Tropy
-- Passer en Dublin Core
-- Renseigner les champs en vous aidant du lien [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k3057446h/f3)
+- Renseigner les champs DC en vous aidant du lien [\textcolor{blueGallica}](https://gallica.bnf.fr/ark:/12148/bpt6k3057446h/f3)
 - **Source** est ici à utiliser pour la référence de la publication
 - **Date** : privilégier le format ISO ainsi : `1851-05-12`
 
 
-### <33>
+### <36>
 
 **Analyser l'objet**
 
@@ -496,10 +537,55 @@ Si l'on double-clique sur l'œuvre :
 - Ou encore, avec l'**outil de sélection** placé au dessus de la reproduction, définir des **zones d'intérêt**, et rédiger une note pour chacune
 
 
-<!--Indexer un document d'archive 
+### <37>
+
+
+**Image** : [Lettre autographe de Daumier](img/autographes-10_0646_doucet_aumf04c010_000458.jpg)
+
+
+- Naviguer jusqu'au dossier  `bib-num\sources\archives\`\
+	`paris-binha-doucet\autographes-10\`
+- Importer l'image dans Tropy
+- Renseigner les champs DC en vous aidant du lien vers la [\textcolor{bluebibliothèque numérique de l'INHA}](https://bibliotheque-numerique.inha.fr/collection/item/17261-autographes-carton-10-peintres-cou-dav)
+- *Type* : DC recommanderait `text` ; mais on peut être plus précis et créatif (correspondance, autographe…)
+- *Source* : la cote complète de l'archive
+
+
+<!--
 photo
 https://bibliotheque-numerique.inha.fr/viewer/17261/?offset=#page=458
- 
-notice :
-https://bibliotheque-numerique.inha.fr/collection/item/17261-autographes-carton-10-peintres-cou-dav
 -->
+
+### <38>
+
+
+**Image** : [Lettre autographe de Daumier](img/autographes-10_0646_doucet_aumf04c010_000458.jpg)
+
+
+- Entrer dans l'objet
+- **Etablir la transcription** du document dans une note
+- Tenter d'identifier les personnes citées dans la lettre\
+	 On apprend grâce à l'index du catalogue *Daumier, 1808-1879*, dir. H. Loyrette (Paris, 1999) que Daumier fréquentait un certain `Boissard de Boisdenier, Joseph-Ferdinand`
+
+- Créer un *tag* à partir de la notice de cet artiste sur [\textcolor{blueULAN}](https://www.getty.edu/research/tools/vocabularies/ulan/)
+
+
+<!--
+ULAN : http://vocab.getty.edu/page/ulan/500002694
+-->
+
+<!--
+
+### <39>
+
+-->
+
+
+### <40>
+
+Le projet est conservé dans un `dossier.tropy`
+
+Pour l'ouvrir à nouveau :
+
+- Entrer dans le dossier
+- Double-cliquer sur le fichier `.tpy`
