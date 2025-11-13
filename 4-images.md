@@ -110,6 +110,10 @@ Les droits de reproduction détenus par la RMN coûtent cher…
 - **Une solution** de nommage pour les reproductions de réf. bibliographiques : l'extension [\textcolor{blueBetterBibTex}](https://retorque.re/zotero-better-bibtex/)\
 	pour Zotero [\textcolor{blueici}](https://github.com/retorquere/zotero-better-bibtex/releases/latest)
 
+	- Cliquer droit sur le fichier **.xpi** pour l'enregistrer sous
+	- Dans Zotero : **Outils** > Extensions
+	- Cliquer sur la **roue dentée** > Install plugin from file
+
 ### <8>
 
 - Créer un dossier `loyretteDaumier18081879Cat1999` dans l'arborescence `daumier` et y dézipper les fichiers
