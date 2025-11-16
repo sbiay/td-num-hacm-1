@@ -16,6 +16,7 @@ Plan :
 	2. [Reproductions d'ouvrages ](#t1-2)
 2. [Traiter des fichiers-images par lots](#t2)
 3. [Récupérer des images en HD](#t3)
+	1. [Récupérer des images en HD depuis Gallica ](#t3-1)
 4. [Organiser une collection d'images avec Tropy](#t4)
 	1. [Démarrer ](#t4-1)
 	2. [Métadonnées DC ](#t4-2)
@@ -39,7 +40,7 @@ Plan :
 ![](/home/sbiay/nextcloud/enseignement/cours/NUM1/daumier/collections/france/paris-orsay/crispin-scapin-RF-2057/orsay-1.jpg)
 
 
-- Créer un dossier sur le PC (on n'aura pas besoin de conserver son contenu passé la séance)
+- Créer un dossier `daumier` sur le PC (on n'aura pas besoin de conserver son contenu passée la séance)
 - Accéder à [\textcolor{bluecette notice}](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
 - Télécharger l'image
 - L'archiver dans une arborescence de dossiers incluse dans le dossier `daumier`
@@ -107,14 +108,16 @@ Les droits de reproduction détenus par la RMN coûtent cher…
 	- Respecter les conventions de nommages (pas d'espace, etc.) ?
 	- Faire facilement le lien entre Zotero et le dossier ?
 
-- **Une solution** de nommage pour les reproductions de réf. bibliographiques : l'extension [\textcolor{blueBetterBibTex}](https://retorque.re/zotero-better-bibtex/)\
-	pour Zotero [\textcolor{blueici}](https://github.com/retorquere/zotero-better-bibtex/releases/latest)
+- **Une solution** de nommage pour les reproductions de réf. bibliographiques : l'extension [\textcolor{blueBetterBibTex}](https://retorque.re/zotero-better-bibtex/) pour Zotero\
+	à télécharger [\textcolor{blueici}](https://github.com/retorquere/zotero-better-bibtex/releases/latest)
 
 	- Cliquer droit sur le fichier **.xpi** pour l'enregistrer sous
 	- Dans Zotero : **Outils** > Extensions
 	- Cliquer sur la **roue dentée** > Install plugin from file
 
 ### <8>
+
+Chaque référence Zotero possède désormais une **clé de citation** en tête de notice, idéale pour nommer des fichiers ou des dossiers en lien avec la référence :
 
 - Créer un dossier `loyretteDaumier18081879Cat1999` dans l'arborescence `daumier` et y dézipper les fichiers
 - Ouvrir le dossier dans XnView
@@ -153,7 +156,7 @@ On obtient une numérotation continue des fichiers par numéros de pages
 On peut enrichir des noms de fichiers en conservant les noms existant
 
 Ajoutons le titre de cette partie du catalogue :\
-« Théâtre, Molière »
+« Théâtre, Molière » après la numérotation des pages :
 
 - Sélectionner à nouveau les fichiers
 - Cliquer sur la flèche de droite,\
@@ -184,21 +187,25 @@ Si l'on souhaite modifier les couleurs ou le contraste des images :
 	- **Convertir**
 
 
-### <12>
-
-
-**Image** : [La promenade du critique influent, estampe, BnF](img/charivari-1865-06-24_btv1b525144764_f1.jpg)
-
-
-1. Accéder à [cette page](https://gallica.bnf.fr/ark:/12148/btv1b525144764/f1) sur Gallica
-
-2. La télécharger en JPG et l'afficher dans XnView  
-
-
 <a id='t3'/>
 
 # Récupérer des images en HD
-[comment5]: <12> (TITRE1)
+[comment5]: <11> (TITRE1)
+
+<a id='t3-1'/>
+
+## Récupérer des images en HD depuis Gallica 
+
+### <12>
+
+
+**Image** : [*La promenade du critique influent, estampe*, BnF](img/charivari-1865-06-24_btv1b525144764_f1.jpg)
+
+
+1. Accéder à [\textcolor{bluecette page}](https://gallica.bnf.fr/ark:/12148/btv1b525144764/f1) sur Gallica
+
+2. La télécharger en JPG et l'afficher dans XnView  
+
 
 ### <13>
 
@@ -256,7 +263,7 @@ Des extensions de navigateur pour aller plus vite :
 	- Zoomer sur l'image
 	- Si l'extension change d'aspect, recliquer dessus…
 
-2. [\textcolor{blueGeobib}](http://www.geobib.fr/tool/iiif/) peut télécharger des images HD et en jpeg de **Gallica** en un clic
+2. [\textcolor{blueGeobib}](http://www.geobib.fr/tool/iiif/) peut télécharger des images HD et en Jpeg de **Gallica** en un clic
 
 
 <!--
@@ -285,7 +292,7 @@ https://archives.valdoise.fr/ark:/18127/1030621.1415874/dao/0
 <a id='t4'/>
 
 # \LARGE Organiser  une collection d'images avec Tropy
-[comment6]: <18> (TITRE1)
+[comment7]: <18> (TITRE1)
 
 
 <a id='t4-1'/>
@@ -294,9 +301,9 @@ https://archives.valdoise.fr/ark:/18127/1030621.1415874/dao/0
 
 ### <19>
 
-[comment8]: <19> (Logiciel développé par le Roy Rosenzweig Center for History and New Media de l'Université George Mason adapté à la gestion du vrac de photos que l'on fait lors de ses consultations mutiples[^401].)
+[comment9]: <19> (Logiciel développé par le Roy Rosenzweig Center for History and New Media de l'Université George Mason adapté à la gestion du vrac de photos que l'on fait lors de ses consultations mutiples[^401].)
 
-[comment9]: <19> ([^401]: @leePersonalImageManagement2021.)
+[comment10]: <19> ([^401]: @leePersonalImageManagement2021.)
 
 
 Télécharger et installer [\textcolor{blueTropy}](https://tropy.org/)
@@ -318,7 +325,7 @@ Principes et limites :\
 
 Par conséquent, il permet de structurer et de re-structurer une collection d'images au fil de sa constitution sans affecter les fichiers archivés.
 
-[comment10]: <19> (À un stade exploratoire, pour annoter des collections et des objets. Ne permet pas de formaliser un corpus, mais de créer des listes d'objets ou des listes de collections par intérêt. Grande **malléabilité** du mode de classement : faire et défaire des listes est simple, on agrège aisément des objets.)
+[comment11]: <19> (À un stade exploratoire, pour annoter des collections et des objets. Ne permet pas de formaliser un corpus, mais de créer des listes d'objets ou des listes de collections par intérêt. Grande **malléabilité** du mode de classement : faire et défaire des listes est simple, on agrège aisément des objets.)
 
 
 ### <20>
@@ -360,7 +367,7 @@ C'est plutôt réservé aux experts en ingénierie documentaire
 - Naviguer jusqu'au sous-dossier `paris-orsay\crispin-scapin-RF-2057`
 - Faire glisser les deux images dans Tropy
 - Puis, dans Tropy, faire glisser une image sur l'autre pour les regrouper en un seul **Objet**
-- Naviguer jusqu'au dossier `paris-louvre\amateurs-estampes-RF-4036` pour avoir un second Objet
+- Naviguer jusqu'au dossier `paris-louvre\amateurs-estampes-RF-4036` pour créer un second objet
 
 <a id='t4-2'/>
 
@@ -370,7 +377,7 @@ C'est plutôt réservé aux experts en ingénierie documentaire
 
 
 **Mission**\
-Renseigner les métadonnées Dublin Core pour les objets créés :
+Renseigner les métadonnées [\textcolor{blueDublin Core}](https://www.bnf.fr/fr/dublin-core) pour les objets créés :
 
 - En respectant la définition de chaque propriété DC
 - En utilisant des vocabulaires contrôlés
@@ -407,7 +414,7 @@ Pour appliquer le même créateur au second objet :
 -  Accéder à [\textcolor{bluela notice}](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
 - Renseigner les champs les plus intuitifs :
 	- Titre
-	- Date (pour conserver des dates triables, rejeter la partie texte entre parenthèses : `1864 (vers)`)
+	- Date : pour conserver des dates triables, rejeter la partie texte entre parenthèses : `1864 (vers)`
 
 
 ### <27>
@@ -435,28 +442,28 @@ Mais on va privilégier un thésaurus francophone plus spécifique aux œuvres d
 
 Parmi les thésaurus de l'INHA (liste complète [\textcolor{blueici}](https://thesaurus.inha.fr/thesaurus/page/vocabulaires)) :
 
-- Accéder au **Type d'œuvre**, [\textcolor{bluelà}](https://thesaurus.inha.fr/thesaurus/page/ark:/54721/8e09cc44-abef-4f14-9761-6c9cb3f63b2d) et trouver le descripteur le plus adapté et le plus précis (en cliquant sur les termes pour descendre dans la hiérarchie)
+- Accéder au thésaurus **Type d'œuvre** [\textcolor{bluelà}](https://thesaurus.inha.fr/thesaurus/page/ark:/54721/8e09cc44-abef-4f14-9761-6c9cb3f63b2d) et trouver le descripteur le plus adapté et le plus précis (en cliquant sur les termes pour descendre dans la hiérarchie)
 
 - Copier la donnée dans le champ **Type**
 
-- Conserver ouverts les thésaurus de l'INHA ou les sauvegarder dans des **Marque-pages** (Ctrl + D)
+- Conserver ouvert ce thésaurus de l'INHA ou le sauvegarder dans des **Marque-pages** (Ctrl + D dans Firefox)
 
 
 ### <29>
 
-La définition du champ **source** est difficile à comprendre : « référence à une ressource dont la ressource décrite est dérivée ».\
+La définition du champ **source** est difficile à comprendre : *« référence à une ressource dont la ressource décrite est dérivée »*.\
 En clair, c'est là que l'on renseigne la **cote** du document de manière complète, en incluant le **lieu de conservation**
 
 On utilise un **référentiel d'autorité** pour saisir le nom de l'institution (cela peut éviter de commettre des approximations typographiques) :
 
 - Chercher le musée d'Orsay sur [\textcolor{blueData-BNF}](https://data.bnf.fr/fr)
-- On saisit l'information en rétablissant la ville, que Data-BNF rejette après un point, en première position suivie d'une virgule
+- On saisit l'information en rétablissant la ville (que Data-BNF rejette après un point) en première position, suivie d'une virgule
 - Puis le numéro d'inventaire
 
 
 ### <30>
 
-Le champ **Identifier** du Dublin Core préconise d'indiquer ici des identifiants techniques univoques, comme l'ISBN pour un livre.
+Le champ **Identifier** de Dublin Core préconise d'indiquer ici des identifiants techniques univoques, comme l'ISBN pour un livre.
 
 Dans le contexte, on peut y mettre un lien vers la notice du document sur le site de l'institution conservatrice :
 
@@ -485,7 +492,7 @@ On peut ajouter un second champ format :
 - Clic droit sur les métadonnées > **Nouveau champ**
 - Saisir `Format`
 
-On peut aussi, plus simplement, inscrire plusieurs valeur de le champ unique Format et les séparer par des virgules :
+On peut aussi, plus simplement, inscrire plusieurs valeurs dans le champ unique Format et les séparer par des virgules :
 
 - Accéder au thésaurus de l'INHA **Matériaux**, [\textcolor{blueici}](https://thesaurus.inha.fr/thesaurus/page/ark:/54721/2275eb81-6e47-4c3c-b1ee-96795edb046c) et trouver le descripteur…
 
@@ -496,7 +503,9 @@ On peut aussi, plus simplement, inscrire plusieurs valeur de le champ unique For
 	
 	- Tropy associe plus efficacement un volet de **Tags**
 	- On peut y saisir les termes renseignés dans la partie *Indexation* de la notice du musée, mais attention : on ne veut pas se retrouver noyé sous les *tags* ; ils doivent vous servir avant tout à créer des liens entre les objets en fonction de vos questionnements de recherche
-	- Meilleur thésaurus d'œuvres littéraires, comme *Les Fourberies de Scapin* : [\textcolor{blueData-BNF}](https://data.bnf.fr/)
+	- Indexer comme tag l'œuvre littéraire dont la peinture est inspirée :
+
+		- Le meilleur thésaurus d'œuvres littéraires, comme *Les Fourberies de Scapin* : [\textcolor{blueData-BNF}](https://data.bnf.fr/)
 
 - **Couverture** (*coverage*) : permet de compléter l'indexation en désignant une notion spatio-temporelle
 
@@ -510,8 +519,10 @@ Champs moins utiles ou non pertinents pour cette œuvre :
 
 - Collaborateur :
 	- *Pour une estampe* : le graveur (si différent du dessinateur)
+
 - Editeur (*Publisher*)
-	- *Pour une estampe* : l'éditeur
+	- *Pour une estampe* : le libraire-éditeur qui la commercialise
+
 - Rights
 - Langue
 - Relation : 
@@ -586,6 +597,10 @@ ULAN : http://vocab.getty.edu/page/ulan/500002694
 
 
 ### <40>
+
+
+Mission terminée !
+
 
 Le projet est conservé dans un `dossier.tropy`
 
