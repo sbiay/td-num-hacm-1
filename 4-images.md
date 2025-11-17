@@ -12,14 +12,49 @@ Gérer des collections d'images avec XnView et Tropy
 Plan :
 
 1. [Classement et information](#t1)
-	1. [Reproductions d'œuvres ](#t1-1)
-	2. [Reproductions d'ouvrages ](#t1-2)
+	1. [Classement et information](#t1-1)
+	2. [Classement et information](#t1-2)
+	3. [Classement et information](#t1-3)
+	4. [Classement et information](#t1-4)
+	5. [Classement et information](#t1-5)
+	6. [Classement et information](#t1-6)
+	7. [Classement et information](#t1-7)
 2. [Traiter des fichiers-images par lots](#t2)
+	1. [Renommer les fichiers](#t2-1)
+	2. [Renommer les fichiers](#t2-2)
+	3. [Modifier des images par lots](#t2-3)
 3. [Récupérer des images en HD](#t3)
-	1. [Récupérer des images en HD depuis Gallica ](#t3-1)
+	1. [Récupérer des images en HD depuis Gallica](#t3-1)
+	2. [Récupérer des images en HD depuis Gallica](#t3-2)
+	3. [Modifier les paramètres de l'adresse](#t3-3)
+	4. [Modifier les paramètres de l'adresse](#t3-4)
+	5. [Pour récupérer plus facilement des images en HD](#t3-5)
+	6. [Pour récupérer plus facilement des images en HD](#t3-6)
+	7. [Des collections accessibles au format iiif](#t3-7)
+	8. [Pour les *geeks* : fouiller un *manifest*](#t3-8)
 4. [Organiser une collection d'images avec Tropy](#t4)
-	1. [Démarrer ](#t4-1)
-	2. [Métadonnées DC ](#t4-2)
+	1. [Démarrer](#t4-1)
+	2. [Démarrer un projet](#t4-2)
+	3. [Démarrer un projet](#t4-3)
+	4. [Démarrer un projet](#t4-4)
+	5. [Métadonnées DC](#t4-5)
+	6. [Métadonnées DC : créateur](#t4-6)
+	7. [Métadonnées DC : créateur](#t4-7)
+	8. [Métadonnées DC : titre, etc.](#t4-8)
+	9. [Métadonnées DC : type](#t4-9)
+	10. [Métadonnées DC : type](#t4-10)
+	11. [Métadonnées DC : source](#t4-11)
+	12. [Métadonnées DC : identificateur](#t4-12)
+	13. [Métadonnées DC : format](#t4-13)
+	14. [Métadonnées DC : format](#t4-14)
+	15. [Métadonnées DC : sujet, couverture](#t4-15)
+	16. [Métadonnées DC : autres](#t4-16)
+	17. [Indexer une lithographie parue dans la presse](#t4-17)
+	18. [Indexer une lithographie parue dans la presse](#t4-18)
+	19. [Indexer un document d'archive](#t4-19)
+	20. [Transcrire un document en note](#t4-20)
+	21. [Grouper les objets par listes](#t4-21)
+	22. [Fermer et rouvrir le projet](#t4-22)
 
 <!--FINET-->
 
@@ -30,23 +65,10 @@ Plan :
 # Classement et information
 [comment1]: <1> (TITRE1)
 
+
 <a id='t1-1'/>
 
-## Reproductions d'œuvres 
-
-### <2>
-
-
-![](/home/sbiay/nextcloud/enseignement/cours/NUM1/daumier/collections/france/paris-orsay/crispin-scapin-RF-2057/orsay-1.jpg)
-
-
-- Créer un dossier `daumier` sur le PC (on n'aura pas besoin de conserver son contenu passée la séance)
-- Accéder à [\textcolor{bluecette notice}](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
-- Télécharger l'image
-- L'archiver dans une arborescence de dossiers incluse dans le dossier `daumier`
-
-
-### <3>
+## Classement et information
 
 On associe de l'information à l'image de trois manières :
 
@@ -61,7 +83,23 @@ On associe de l'information à l'image de trois manières :
 4. Joindre un fichier texte
 
 
-### <4>
+<a id='t1-2'/>
+
+## Classement et information
+
+
+![](/home/sbiay/nextcloud/enseignement/cours/NUM1/daumier/collections/france/paris-orsay/crispin-scapin-RF-2057/orsay-1.jpg)
+
+
+- Créer un dossier `daumier` sur le PC (on n'aura pas besoin de conserver son contenu passée la séance)
+- Accéder à [\textcolor{bluecette notice}](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
+- Télécharger l'image
+- L'archiver dans une arborescence de dossiers incluse dans le dossier `daumier`
+
+
+<a id='t1-3'/>
+
+## Classement et information
 
 
 ![](/home/sbiay/nextcloud/enseignement/cours/NUM1/daumier/collections/france/paris-louvre/amateurs-estampes-RF-4036/768.jpg)
@@ -72,7 +110,9 @@ On associe de l'information à l'image de trois manières :
 - Consulter les métadonnées grâce au logiciel **XnView MP**, préinstallé sur les PC de la salle ou téléchargeable [\textcolor{blueici}](https://www.xnview.com/fr/xnview/)
 
 
-### <5>
+<a id='t1-4'/>
+
+## Classement et information
 
 **Renseigner les métadonnées de la reproduction de *Crispin et Scapin*** :
 
@@ -83,7 +123,9 @@ On associe de l'information à l'image de trois manières :
 [^400]: Modèle standard développé par l'International Press Telecommunications Council.
 
 
-### <6>
+<a id='t1-5'/>
+
+## Classement et information
 
 Les droits de reproduction détenus par la RMN coûtent cher…
 
@@ -95,12 +137,10 @@ Les droits de reproduction détenus par la RMN coûtent cher…
 	- Copier l'hyperlien
 	- Le coller dans Crédit > **Crédits**
 
-<a id='t1-2'/>
 
-## Reproductions d'ouvrages 
+<a id='t1-6'/>
 
-### <7>
-
+## Classement et information
 
 - Télécharger depuis Madoc le dossier compressé **cat-exp-1999.zip**
 
@@ -115,7 +155,10 @@ Les droits de reproduction détenus par la RMN coûtent cher…
 	- Dans Zotero : **Outils** > Extensions
 	- Cliquer sur la **roue dentée** > Install plugin from file
 
-### <8>
+
+<a id='t1-7'/>
+
+## Classement et information
 
 Chaque référence Zotero possède désormais une **clé de citation** en tête de notice, idéale pour nommer des fichiers ou des dossiers en lien avec la référence :
 
@@ -126,10 +169,12 @@ Chaque référence Zotero possède désormais une **clé de citation** en tête 
 <a id='t2'/>
 
 # Traiter des fichiers-images par lots
-[comment4]: <8> (TITRE1)
+[comment2]: <8> (TITRE1)
 
 
-### <9>
+<a id='t2-1'/>
+
+## Renommer les fichiers
 
 - Sélectionner toutes les images sauf la première
 
@@ -151,7 +196,9 @@ Chaque référence Zotero possède désormais une **clé de citation** en tête 
 
 On obtient une numérotation continue des fichiers par numéros de pages
 
-### <10>
+<a id='t2-2'/>
+
+## Renommer les fichiers
 
 On peut enrichir des noms de fichiers en conservant les noms existant
 
@@ -166,7 +213,9 @@ Ajoutons le titre de cette partie du catalogue :\
 - Ok
 
 
-### <11>
+<a id='t2-3'/>
+
+## Modifier des images par lots
 
 Si l'on souhaite modifier les couleurs ou le contraste des images :
 
@@ -190,13 +239,12 @@ Si l'on souhaite modifier les couleurs ou le contraste des images :
 <a id='t3'/>
 
 # Récupérer des images en HD
-[comment5]: <11> (TITRE1)
+[comment3]: <11> (TITRE1)
 
 <a id='t3-1'/>
 
-## Récupérer des images en HD depuis Gallica 
-
-### <12>
+## Récupérer des images en HD depuis Gallica
+[comment4]: <12> (TITRE2)
 
 
 **Image** : [*La promenade du critique influent, estampe*, BnF](img/charivari-1865-06-24_btv1b525144764_f1.jpg)
@@ -207,7 +255,9 @@ Si l'on souhaite modifier les couleurs ou le contraste des images :
 2. La télécharger en JPG et l'afficher dans XnView  
 
 
-### <13>
+<a id='t3-2'/>
+
+## Récupérer des images en HD depuis Gallica
 
 
 Remarquer le logo dans la partie gauche de l'interface de Gallica.
@@ -225,20 +275,46 @@ URL de l'image sur l'API IIIF en résolution maximale :\
 `https://gallica.bnf.fr/iiif/ark:/12148/btv1b525144764/f1/full/full/0/native.jpg`
 
 
-<!--
-### <14>
+<a id='t3-3'/>
 
-L'API permet de modifier le fichier image en intervenant sur les paramètres de son URL. Cliquer sur les points suivants et regarder en quoi l'URL est différente :
+## Modifier les paramètres de l'adresse
 
-1. [\textcolor{blueRotation à 90°}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/f43/full/full/90/native.jpg)
+L'API permet de modifier le fichier image en intervenant sur les paramètres de son URL.
 
-2. [\textcolor{blueRésolution limitée à 1200 px de largeur}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/f43/full/1200,/0/native.jpg)
+https://gallica.bnf.fr/iiif/ark:/12148/btv1b525144764/f1/ \
+\textcolorbluefull/\textcolororangefull/\textcolorpurple{0}/native.jpg
 
-2. [\textcolor{blueRésolution limitée à 1200 px de hauteur}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/f43/full/,1200/0/native.jpg)
--->
+Cliquer sur les points suivants et regarder en quoi l'URL est différente :
 
-### <15>
 
+1. [\textcolor{blueZone d'intérêt dans l'image}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b525144764/f1/954,3172,1432,1198/full/0/native.jpg)
+
+2. \textcolororangeRésolution :
+
+	1. [\textcolor{grayRésolution limitée à 1200 px de largeur}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b525144764/f1/full/1200,/0/native.jpg)
+
+	2. [\textcolor{grayRésolution limitée à 1200 px de hauteur}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b525144764/f1/full/,1200/0/native.jpg)
+
+3. [\textcolor{purpleRotation à 90°}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b525144764/f1/full/full/90/native.jpg)
+
+
+<a id='t3-4'/>
+
+## Modifier les paramètres de l'adresse
+
+![](/home/sbiay/illustrations-cours/NUM1/images/zone-interet.jpg)
+**Zone d'intérêt**
+
+
+Ordre des paramètres :    \textcolorred{3}  \textcolorolive{4}    \textcolorblue{1} \textcolororange{2}
+
+
+URL : …/f1/**\textcolorred954,\textcolorolive3172,\textcolorblue1432,\textcolororange1198**/full/0/native.jpg
+
+
+<a id='t3-5'/>
+
+## Pour récupérer plus facilement des images en HD
 
 Un autre moyen d'accéder à la HD de certaines images zoomables :
 
@@ -250,7 +326,9 @@ Remarque, l'image téléchargée de Dezoomify est plus lourde (PNG 34 bits au li
 Pour la transformer en Jpeg plus léger dans XnView : Faire un clic droit sur l'image > Convertir en > JPG
 
 
-### <16>
+<a id='t3-6'/>
+
+## Pour récupérer plus facilement des images en HD
 
 
 Des extensions de navigateur pour aller plus vite :
@@ -267,7 +345,9 @@ Des extensions de navigateur pour aller plus vite :
 
 
 <!--
-### <17>
+<a id='t3-7'/>
+
+## Des collections accessibles au format iiif
 
 Des sites publics d'archives
 https://archives.valdoise.fr/ark:/18127/1030621.1415874/dao/0
@@ -277,7 +357,9 @@ https://archives.valdoise.fr/ark:/18127/1030621.1415874/dao/0
 2. Inventaires des collections par l'[\textcolor{blue**Université de Leyde**}](https://www.library.universiteitleiden.nl/binaries/content/assets/ul2ub/bijzondere-collecties/list-of-iiif-collections.pdf)
 
 
-### <18>
+<a id='t3-8'/>
+
+## Pour les *geeks* : fouiller un *manifest*
 
 1. Le fichier contenant toutes les URL des images s'intitule comme ceci : [\textcolor{bluehttps://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/manifest.json}](https://gallica.bnf.fr/iiif/ark:/12148/btv1b60000317/manifest.json)
 
@@ -292,18 +374,17 @@ https://archives.valdoise.fr/ark:/18127/1030621.1415874/dao/0
 <a id='t4'/>
 
 # \LARGE Organiser  une collection d'images avec Tropy
-[comment7]: <18> (TITRE1)
+[comment5]: <19> (TITRE1)
 
 
 <a id='t4-1'/>
 
-## Démarrer 
+## Démarrer
+[comment6]: <20> (TITRE2)
 
-### <19>
+[comment7]: <20> (Logiciel développé par le Roy Rosenzweig Center for History and New Media de l'Université George Mason adapté à la gestion du vrac de photos que l'on fait lors de ses consultations mutiples[^401].)
 
-[comment9]: <19> (Logiciel développé par le Roy Rosenzweig Center for History and New Media de l'Université George Mason adapté à la gestion du vrac de photos que l'on fait lors de ses consultations mutiples[^401].)
-
-[comment10]: <19> ([^401]: @leePersonalImageManagement2021.)
+[comment8]: <20> ([^401]: @leePersonalImageManagement2021.)
 
 
 Télécharger et installer [\textcolor{blueTropy}](https://tropy.org/)
@@ -325,10 +406,12 @@ Principes et limites :\
 
 Par conséquent, il permet de structurer et de re-structurer une collection d'images au fil de sa constitution sans affecter les fichiers archivés.
 
-[comment11]: <19> (À un stade exploratoire, pour annoter des collections et des objets. Ne permet pas de formaliser un corpus, mais de créer des listes d'objets ou des listes de collections par intérêt. Grande **malléabilité** du mode de classement : faire et défaire des listes est simple, on agrège aisément des objets.)
+[comment9]: <20> (À un stade exploratoire, pour annoter des collections et des objets. Ne permet pas de formaliser un corpus, mais de créer des listes d'objets ou des listes de collections par intérêt. Grande **malléabilité** du mode de classement : faire et défaire des listes est simple, on agrège aisément des objets.)
 
 
-### <20>
+<a id='t4-2'/>
+
+## Démarrer un projet
 
 - Lancer le programme
 - Nommer le projet `daumier`
@@ -347,7 +430,9 @@ Interface similaire à Zotero, mais logiciel conçu pour créer des **objets** (
 	
 	très utilisé pour les données patrimoniales pour son interopérabilité : voir le descriptif de la BNF [\textcolor{blueici}](https://www.bnf.fr/fr/dublin-core)
 
-### <21>
+<a id='t4-3'/>
+
+## Démarrer un projet
 
 On peut aussi créer son propre modèle et ainsi personnaliser le catalogage de ses objets :
 
@@ -360,7 +445,9 @@ La création d'un modèle personnel suppose de bien connaître et comprendre les
 C'est plutôt réservé aux experts en ingénierie documentaire
 
 
-### <22>
+<a id='t4-4'/>
+
+## Démarrer un projet
 
 - Récupérer l'archive **daumier.zip**
 - L'extraire (sur le Bureau ou dans le dossier Documents)
@@ -369,11 +456,10 @@ C'est plutôt réservé aux experts en ingénierie documentaire
 - Puis, dans Tropy, faire glisser une image sur l'autre pour les regrouper en un seul **Objet**
 - Naviguer jusqu'au dossier `paris-louvre\amateurs-estampes-RF-4036` pour créer un second objet
 
-<a id='t4-2'/>
+<a id='t4-5'/>
 
-## Métadonnées DC 
-
-### <23>
+## Métadonnées DC
+[comment10]: <24> (TITRE2)
 
 
 **Mission**\
@@ -383,7 +469,9 @@ Renseigner les métadonnées [\textcolor{blueDublin Core}](https://www.bnf.fr/fr
 - En utilisant des vocabulaires contrôlés
 
 
-### <24>
+<a id='t4-6'/>
+
+## Métadonnées DC : créateur
 
 - **Créateur** :
 	
@@ -394,7 +482,9 @@ Renseigner les métadonnées [\textcolor{blueDublin Core}](https://www.bnf.fr/fr
 	- Coller
 	- Modifier ensuite le créateur pour ne conserver entre parenthèses que les dates
 
-### <25>
+<a id='t4-7'/>
+
+## Métadonnées DC : créateur
 
 Pour appliquer le même créateur au second objet :
 
@@ -405,7 +495,9 @@ Pour appliquer le même créateur au second objet :
 	- Appuyer sur Entrée
 
 
-### <26>
+<a id='t4-8'/>
+
+## Métadonnées DC : titre, etc.
 
 
 ![](/home/sbiay/nextcloud/enseignement/cours/NUM1/daumier/collections/france/paris-orsay/crispin-scapin-RF-2057/orsay-1.jpg)
@@ -417,7 +509,9 @@ Pour appliquer le même créateur au second objet :
 	- Date : pour conserver des dates triables, rejeter la partie texte entre parenthèses : `1864 (vers)`
 
 
-### <27>
+<a id='t4-9'/>
+
+## Métadonnées DC : type
 
 **Type** définit la nature ou le genre du contenu, Dublin Core recquiert l'un des douze types suivants :\
 
@@ -437,7 +531,9 @@ Pour appliquer le même créateur au second objet :
 
 Mais on va privilégier un thésaurus francophone plus spécifique aux œuvres d'art…
 
-### <28>
+<a id='t4-10'/>
+
+## Métadonnées DC : type
 
 
 Parmi les thésaurus de l'INHA (liste complète [\textcolor{blueici}](https://thesaurus.inha.fr/thesaurus/page/vocabulaires)) :
@@ -449,7 +545,9 @@ Parmi les thésaurus de l'INHA (liste complète [\textcolor{blueici}](https://th
 - Conserver ouvert ce thésaurus de l'INHA ou le sauvegarder dans des **Marque-pages** (Ctrl + D dans Firefox)
 
 
-### <29>
+<a id='t4-11'/>
+
+## Métadonnées DC : source
 
 La définition du champ **source** est difficile à comprendre : *« référence à une ressource dont la ressource décrite est dérivée »*.\
 En clair, c'est là que l'on renseigne la **cote** du document de manière complète, en incluant le **lieu de conservation**
@@ -461,7 +559,9 @@ On utilise un **référentiel d'autorité** pour saisir le nom de l'institution 
 - Puis le numéro d'inventaire
 
 
-### <30>
+<a id='t4-12'/>
+
+## Métadonnées DC : identificateur
 
 Le champ **Identifier** de Dublin Core préconise d'indiquer ici des identifiants techniques univoques, comme l'ISBN pour un livre.
 
@@ -471,7 +571,9 @@ Dans le contexte, on peut y mettre un lien vers la notice du document sur le sit
 - Le coller dans Tropy
 
 
-### <31>
+<a id='t4-13'/>
+
+## Métadonnées DC : format
 
 **Format** désigne la manifestation (ou matérialisation) physique ou numérique de la ressource.
 
@@ -485,7 +587,9 @@ https://thesaurus.inha.fr/thesaurus/page/ark:/54721/827a1923-2d1e-4731-adcd-b3d1
 -->
 
 
-### <32>
+<a id='t4-14'/>
+
+## Métadonnées DC : format
 
 On peut ajouter un second champ format :
 
@@ -497,7 +601,9 @@ On peut aussi, plus simplement, inscrire plusieurs valeurs dans le champ unique 
 - Accéder au thésaurus de l'INHA **Matériaux**, [\textcolor{blueici}](https://thesaurus.inha.fr/thesaurus/page/ark:/54721/2275eb81-6e47-4c3c-b1ee-96795edb046c) et trouver le descripteur…
 
 
-### <33>
+<a id='t4-15'/>
+
+## Métadonnées DC : sujet, couverture
 
 - **Sujet** : concerne l'indexation du contenu thématique de la ressource
 	
@@ -513,7 +619,9 @@ On peut aussi, plus simplement, inscrire plusieurs valeurs dans le champ unique 
 	- École artistique, etc.
 
 
-### <34>
+<a id='t4-16'/>
+
+## Métadonnées DC : autres
 
 Champs moins utiles ou non pertinents pour cette œuvre :
 
@@ -529,7 +637,9 @@ Champs moins utiles ou non pertinents pour cette œuvre :
 	- *Pour une archive* : on mettrait ici le lien vers la notice dans l'inventaire de recherche
 
 
-### <35>
+<a id='t4-17'/>
+
+## Indexer une lithographie parue dans la presse
 
 
 **Image** : [*Les conseils d'un Crispin politique*](img/charivari-1851-05-12_bpt6k3057446h_f3.jpg)
@@ -542,7 +652,9 @@ Champs moins utiles ou non pertinents pour cette œuvre :
 - **Date** : privilégier le format ISO ainsi : `1851-05-12`
 
 
-### <36>
+<a id='t4-18'/>
+
+## Indexer une lithographie parue dans la presse
 
 **Analyser l'objet**
 
@@ -552,7 +664,9 @@ Si l'on double-clique sur l'œuvre :
 - Ou encore, avec l'**outil de sélection** placé au dessus de la reproduction, définir des **zones d'intérêt**, et rédiger une note pour chacune
 
 
-### <37>
+<a id='t4-19'/>
+
+## Indexer un document d'archive
 
 
 **Image** : [Lettre autographe de Daumier](img/autographes-10_0646_doucet_aumf04c010_000458.jpg)
@@ -571,7 +685,9 @@ photo
 https://bibliotheque-numerique.inha.fr/viewer/17261/?offset=#page=458
 -->
 
-### <38>
+<a id='t4-20'/>
+
+## Transcrire un document en note
 
 
 **Image** : [Lettre autographe de Daumier](img/autographes-10_0646_doucet_aumf04c010_000458.jpg)
@@ -591,12 +707,16 @@ ULAN : http://vocab.getty.edu/page/ulan/500002694
 
 <!--
 
-### <39>
+<a id='t4-21'/>
+
+## Grouper les objets par listes
 
 -->
 
 
-### <40>
+<a id='t4-22'/>
+
+## Fermer et rouvrir le projet
 
 
 Mission terminée !
