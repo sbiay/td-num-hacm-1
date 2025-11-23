@@ -1,0 +1,573 @@
+---
+mainfont: Alegreya
+title: Générer un catalogue d'œuvres à partir d'une collection de fichiers
+date: 1^er^ semestre 2025-2026
+author: sebastien.biay@univ-nantes.fr
+lang: fr-FR
+header-includes: 
+	- \usepackage[font=small,justification=centering]caption
+---
+
+Générer un catalogue d'œuvres à partir d'une collection de fichiers
+=====
+
+Plan :
+
+	1. [Méthode](#t0-1)
+	2. [Méthode](#t0-2)
+1. [Le langage markdown](#t1)
+	1. [langages à balises](#t1-1)
+	2. [avantages du markdown](#t1-2)
+	3. [Prérequis](#t1-3)
+	4. [Editer un document](#t1-4)
+	5. [Parties du document](#t1-5)
+	6. [Styles de paragraphes](#t1-6)
+2. [Titre de niveau 1](#t2)
+	1. [Titre de niveau 2](#t2-1)
+	2. [Styles de paragraphes](#t2-2)
+	3. [Styles de paragraphes](#t2-3)
+	4. [Styles de caractères](#t2-4)
+	5. [Styles de caractères](#t2-5)
+	6. [Liens et images](#t2-6)
+	7. [Liens et images](#t2-7)
+	8. [Liens et images](#t2-8)
+	9. [Liens et images](#t2-9)
+	10. [Notes](#t2-10)
+	11. [Notes](#t2-11)
+	12. [Notes](#t2-12)
+	13. [Notes](#t2-13)
+	14. [Commentaires](#t2-14)
+	15. [Transformer un fichier md en traitement de texte](#t2-15)
+3. [Réaliser un catalogue de notices](#t3)
+	1. [Structure des notices](#t3-1)
+	2. [Structure des notices](#t3-2)
+	3. [Structure des notices](#t3-3)
+	4. [Créer une nouvelle notice](#t3-4)
+	5. [Créer une nouvelle notice](#t3-5)
+	6. [Préparer les pages de titre du catalogue](#t3-6)
+	7. [Préparer les pages de titre du catalogue](#t3-7)
+	8. [Préparer les pages de titre du catalogue](#t3-8)
+	9. [Préparer les pages de titre du catalogue](#t3-9)
+	10. [Préparer les pages de titre du catalogue](#t3-10)
+	11. [Préparer les pages de titre du catalogue](#t3-11)
+	12. [Préparer les pages de titre du catalogue](#t3-12)
+
+<!--FINET-->
+
+
+<a id='t0-1'/>
+
+## Méthode
+[comment1]: <2> (TITRE1)
+
+![Flux de production classique]()
+
+
+<a id='t0-2'/>
+
+## Méthode
+
+![Flux de production à double sortie]()
+
+
+<a id='t1'/>
+
+# Le langage markdown
+[comment2]: <3> (TITRE1)
+
+<a id='t1-1'/>
+
+## langages à balises
+
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Une petite page HTML</title>
+	</head>
+	<body>
+		<h1>Un titre de niveau 1</h1>
+		<p>Un premier petit paragraphe.</p>
+	 
+		<h2>Un titre de niveau 2</h2>
+		<p>
+			Un autre paragraphe contenant un lien pour aller
+			sur le site <a href="http://koor.fr">KooR.fr</a>
+			pour apprendre à écrire du HTML.
+		</p>
+	</body>
+</html>
+```
+
+<a id='t1-2'/>
+
+## avantages du markdown
+
+- Syntaxe simple à comprendre
+- Rapidité de saisie
+- Lisible, même sans prévisualisation
+- Portabilité des fichiers : texte brut, léger, consultable sur tous les éditeurs, dans toutes les OS
+- Flexibilité du contenu : conversion possible dans de multiples formats
+- Très largement utilisé dans les systèmes de gestion de contenu (bases de données, blogues scientifiques, etc.)
+
+
+<a id='t1-3'/>
+
+## Prérequis
+
+Pour rédiger en md, on utilise un **éditeur de texte** et non un logiciel de traitement de texte :
+
+- [Visual Studio Code}](https://code.visualstudio.com/download)
+- [Pulsar}](https://pulsar-edit.dev/download/)
+- Et tant d'autres à découvrir [ici}](https://www.logiciels.pro/comparatif-logiciels/comparatif-editeurs-markdown/)
+
+
+<a id='t1-4'/>
+
+## Editer un document
+
+- Télécharger le dossier **daumier.zip** depuis Madoc
+- Extraire le contenu
+- Ouvrir Visual Studio
+- Dans le volet d'exploration, ouvrir le dossier `daumier`<!--A tester❗-->
+- Naviguer via le volet d'exploration jusqu'au fichier 
+	`.\bib-num\etudes\loyretteDaumier18081879Cat1999\notes.md`
+- L'ouvrir
+- Cliquer sur le bouton de prévisualisation en haut à droite
+
+
+<a id='t1-5'/>
+
+## Parties du document
+
+- **En-tête** : les métadonnées du document au format Yaml
+
+	- Certains caractères sont interdits, comme `:`
+	- `lang: fr-FR`  est très important pour une transformation selon des règles typographiques françaises (appel de note avant la ponctuation) 
+
+- **Corps** du document
+
+
+<a id='t1-6'/>
+
+## Styles de paragraphes
+
+**Titres**\
+Le symbole `#` permet de baliser une ligne de titre\
+
+```md
+<a id='t2'/>
+
+# Titre de niveau 1
+<a id='t2-1'/>
+
+## Titre de niveau 2
+```
+
+À faire :
+
+- Faire passer `Théâtre, Molière` en titre de niveau 1
+- `Cat. 204 Crispin et Scapin` en titre de niveau 2
+
+
+<a id='t2-2'/>
+
+## Styles de paragraphes
+
+**Paragraphe standard**\
+Le retour à la ligne n'interrompt pas un paragraphe\
+Seule une ligne vide marque une séparation entre deux paragraphes :
+
+- Remarquer que la phrase `Oeuvre bien conservée…` est écrite sur plusieurs lignes
+- Remplacer les retours à la lignes par des espaces : la prévisualisation du document n'est pas affectée
+
+On force un retour à la ligne avec `\` :
+
+- Placer `\` au bout de la ligne `Identification du sujet :`
+
+
+<a id='t2-3'/>
+
+## Styles de paragraphes
+
+**Blocs de citation**\
+Le symbole `>` permet de baliser un bloc en retrait\
+
+- A la fin du fichier, placer `>` (suivi d'une espace) devant `Degas admira` et devant `A Daumier`
+
+
+<a id='t2-4'/>
+
+## Styles de caractères
+
+**Italique**\
+Le symbole `*` permet de baliser une chaîne de caractères en italique :
+
+- Ligne 24, saisir un `*` avant `Fourberies` et après `Scapin`
+- On peut aussi sélectionner les mots (Ctrl + Maj + flèche) et appuyer une seule fois sur `*`
+- Faire de même pour `Scapin et Silvestre`
+
+<a id='t2-5'/>
+
+## Styles de caractères
+
+**Gras**\
+Les symboles `**` permettent de baliser une chaîne de caractères en gras :
+
+- Sélectionner `Identification du sujet` et saisir `**`
+
+
+**Gras et italique**\
+Les symboles `***` permettent de baliser une chaîne de caractères en gras et en italique
+
+
+<a id='t2-6'/>
+
+## Liens et images
+
+**Liens hypertextes**\
+Pour insérer un lien :
+
+- Écrire Sélectionner le texte support du lien : `portail des collections d'Orsay`
+- Saisir `[` pour l'enfermer dans des crochets carrés
+- Après `]` saisir des parenthèses simples `()`
+- Placer entre les parenthèses [cette URL}](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
+
+
+<a id='t2-7'/>
+
+## Liens et images
+
+**Images**\
+Pour insérer une image :
+
+- Sous le Titre 2, sauter une ligne et saisir `![]()`
+- Le texte de la légende s'écrit entre `[]`
+- L'[URL de l'image}](https://upload.wikimedia.org/wikipedia/commons/b/bc/Honor%C3%A9_daumier%2C_crispino_e_scapino%2C_1864_ca._02.JPG) s'écrit entre `()`
+
+On peut également insérer un fichier-image local par son chemin absolu :
+
+- Se déplacer dans le dossier
+	`collections\france\paris-orsay\crispin-scapin-RF-2057`
+- Pour copier le chemin de l'image sous Win : Ctrl + Maj + C
+- Le coller dans le fichier md à la place de l'URL de l'image
+
+
+<a id='t2-8'/>
+
+## Liens et images
+
+**Images citées par URL** :
+
+- Prévisualisation md
+- Export direct vers le catalogue traitement de texte\
+	(via pandoc)
+- Export direct vers Omeka (via CSV)
+
+**Images citées par chemin absolu** :
+
+- \textcolorpurpleNe permet pas la prévisualisation md
+- Export direct vers le catalogue traitement de texte\
+	(via pandoc)
+- \textcolorpurpleNe permet pas l'export direct vers Omeka (via CSV)
+
+<a id='t2-9'/>
+
+## Liens et images
+
+**Format des images**\
+afin d'éviter que des images de grand format ne débordent de la page lors d'une transformation vers traitement de texte,
+indiquer en bout de ligne une dimension maximale :
+
+- `{ width=16cm }` pour une image de format paysage
+- `` pour une image de format portrait
+
+
+<a id='t2-10'/>
+
+## Notes
+
+L'insertion de notes accepte plusieurs syntaxes
+
+**Syntaxe principale**
+
+- Insérer l'appel de note après `J. Adhémar` de la façon suivante : `[^<!---->1]`
+- Créer la note sur une nouvelle ligne (précédée et suivie par une ligne vide) :
+	
+	- `[^<!---->1]: J. Adhémar, *Honoré Daumier*, Paris, P. Tisné, 1954, p. 126.`
+
+Attention copier/coller le caractère `^` peut ne pas fonctionner\
+La numérotation des notes accepte les chiffres comme les lettres
+
+
+<a id='t2-11'/>
+
+## Notes
+
+**Syntaxe alternative**
+
+`Du texte^[Le contenu d'une note].`
+
+- \textcolorpurpleNe permet pas la prévisualisation md
+- Export direct vers le catalogue traitement de texte\
+
+
+**Syntaxe principale**
+
+- Prévisualisation md
+- \textcolorpurpleLes notes qui auraient le même numéro ne peuvent pas être fusionnées via pandoc
+
+
+<a id='t2-12'/>
+
+## Notes
+
+Transformer l'ensemble des indications de pagination en notes avec la clé de citation **BetterBibTeX** (qu'il faut d'abord configurer) :
+
+- Ouvrir Zotero et se connecter à son compte
+- Se rendre sur la page de téléchargement de BetterBibTex pour Zotero [\textcolor{blueici}](https://github.com/retorquere/zotero-better-bibtex/releases/latest)
+
+	- Cliquer droit sur le fichier **.xpi** pour l'enregistrer sous
+	- Dans Zotero : **Outils** > Extensions
+	- Cliquer sur la **roue dentée** > Install plugin from file
+
+- Copier la clé de citation `loyretteDaumier18081879Cat1999`
+
+
+<a id='t2-13'/>
+
+## Notes
+
+Dans le fichier de notes :
+
+- Ouvrir la boîte de dialogue de recherche :
+- Activer les expressions régulières : `.*`
+- Rechercher : [*une espace*]`\[(p.\s\d+)\]`
+- Remplacer par :\
+	`^[loyretteDaumier18081879Cat1999, $1.]`
+
+Attention copier/coller le caractère `^` peut ne pas fonctionner\
+
+
+<a id='t2-14'/>
+
+## Commentaires
+
+Pour saisir des informations qui ne seront pas visibles dans la prévisualisation ou lors de l'export vers le catalogue traitement de texte :
+
+\<\!\-\-Du texte en commentaire sur une ligne\-\-\>
+
+\<\!\-\-\
+Du texte en commentaire\
+sur plusieurs lignes\
+\-\-\>\
+
+
+<a id='t2-15'/>
+
+## Transformer un fichier md en traitement de texte
+
+**Pandoc**\
+est un logiciel de transformation en ligne de commande (pas d'interface utilisateur) :
+
+- Déjà installé en salle informatique\
+	
+	pour l'installer chez soi, le télécharger [\textcolor{blueici}](https://pandoc.org/installing.html) (au format **msi** pour une bonne installation sous Win)
+	
+- Dans un explorateur de fichiers, se placer dans le dossier où se trouve le fichier de notes
+
+- Lancer le logiciel **Windows Powershell**<!--❗tester--> par un clic droit : **Ouvrir dans le Terminal**
+
+- Copier-coller la commande suivante :\
+	`pandoc .\notes.md -o sortie-traitnt-txt.odt`
+
+- Ouvrir le résultat dans LibreOffice Writer
+
+
+<a id='t3'/>
+
+# Réaliser un catalogue de notices
+[comment3]: <24> (TITRE1)
+
+<a id='t3-1'/>
+
+## Structure des notices
+
+
+- Naviguer jusqu'au dossier `bib-num\sources\presse\charivari-1851-05-12`
+- Ouvrir le fichier `notice.md`
+
+Il contient tous les éléments constitutifs d'une notice :
+
+-  Image
+- Données catalographiques
+- Bibliographie (les données ne sont pas authentiques)
+- Brève analyse
+
+Et des éléments de structure :
+
+-  Titre 2 pour la notice dans son ensemble
+- Titre 3 pour séparer l'analyse dans le futur catalogue
+- Ne rien écrire dans ces titres !
+- On réserve le niveau Titre 1 pour les titres des grandes parties du catalogue : Estampe, Peinture, etc.
+
+<a id='t3-2'/>
+
+## Structure des notices
+
+Les notices contiennent également des **balises HTML**
+
+`<data name="DC.creator">CONTENU</data>`
+
+Elles permettront plus tard de récupérer automatiquement le contenu saisi dans ces balises et de les convertir en un tableau de données au format CSV
+
+Les données seront envoyées vers le logiciel Omeka qui demande qu'elles soient exprimée selon le modèle **Dublin Core**
+
+
+<a id='t3-3'/>
+
+## Structure des notices
+
+L'intitulé des données catalographiques (artiste, titre, technique, etc.) n'est pas toujours écrit à l'intérieur de la balise `<data…`
+
+En l'écrivant parfois à l'extérieur de la balise, on évitera de l'exporter vers la collection virtuelle Omeka, où les intitulés des champs Dublin Core sont écrits et risqueraient d'être redondants (avec notamment titre, date, source)
+
+Voir la notice Omeka [\textcolor{blueici}](https://duelsbiay.omeka.net/items/show/218)
+
+
+<a id='t3-4'/>
+
+## Créer une nouvelle notice
+
+En vous inspirant de cette notice modèle, créer et renseigner une nouvelle notice :
+
+- Naviguer jusqu'au dossier `.\bib-num\sources\presse\charivari-1865-06-24\`
+- Récupérer le formulaire vierge **notice.md** sur Madoc et le placer dans ce dossier
+- En vous aidant du modèle et de la notice Gallica [\textcolor{blueici}](https://gallica.bnf.fr/ark:/12148/btv1b525144764/f1)
+
+
+<a id='t3-5'/>
+
+## Créer une nouvelle notice
+
+Les plus rapides créeront aussi une notice pour cette œuvre :
+
+`.\collections\france\paris-louvre\amateurs-estampes-RF-4036\`
+
+
+<a id='t3-6'/>
+
+## Préparer les pages de titre du catalogue
+
+Ce sont les titres 1 qui constitueront les titres des grandes parties du catalogue
+
+Pour chacun, on a créé un fichier md qui se trouve à la racine du dossier `daumier` :
+
+- partie1-estampe.md
+- partie2-dessins.md
+- partie3-peinture.md
+
+On a également créé un fichier **metadonnees.md** qu'il faut à présent compléter des informations à faire apparaître sur la pièce de titre du catalogue
+
+
+<a id='t3-7'/>
+
+## Préparer les pages de titre du catalogue
+
+Pour transformer avec **Pandoc**, il faut rédiger une ligne de commande comme précédemment :
+
+`pandoc .\notes.md -o sortie-traitnt-txt.odt`
+
+Mais on doit désormais indiquer en 1^er^ argument\
+(entre `pandoc` et `-o`)\
+l'ensemble des fichiers qui composent le catalogue
+**dans l'ordre souhaité**
+
+<a id='t3-8'/>
+
+## Préparer les pages de titre du catalogue
+
+
+- Créer un fichier **commande-pandoc.txt**\
+	dans le dossier **daumier**
+- L'ouvrir dans Visual Studio Code
+- Inscrire dans ce fichier, ligne après ligne :
+
+	```txt
+	pandoc
+	metadonnees.md
+	partie1-estampe.md
+	```
+
+- Pour inscrire le chemin de fichier de chaque notice dans l'ordre souhaité : 
+	
+	- Dans l'explorateur de fichiers, rechercher **notice.md**
+	- Par un clic droit sur chaque notice, copier le chemin absolu de chacune à la suite des premières lignes dans **commande-pandoc.txt** 
+
+		`C:\Users\…\daumier\bib-num\sources\presse\charivari-1851-05-12\notice.md`\
+		`C:\Users\…\daumier\bib-num\sources\presse\charivari-1865-06-24\notice.md`
+		
+<!--❗on peut avoir des chemins relatifs ?-->
+
+<a id='t3-9'/>
+
+## Préparer les pages de titre du catalogue
+
+Une fois toutes les notices ajoutées, la dernière ligne de la commande est :
+
+`-o catalogue.odt`
+
+Il faut à présent transformer l'ensemble des lignes en une seule ligne.
+On conserve la version écrite sur plusieurs lignes car il est facile d'en modifier l'ordre au besoin :
+
+- Copier-coller toutes les lignes dans un autre document txt
+- Activer les expressions régulières
+- Chercher `\r\n`
+- Remplacer par une espace
+- Copier-coller le résultat en bas du fichier **commande-pandoc.txt**
+
+
+<a id='t3-10'/>
+
+## Préparer les pages de titre du catalogue
+
+Pour finir, lancer pandoc avec la commande :
+
+- Lancer le logiciel **Windows Powershell**<!--❗tester--> par un clic droit dans le dossier `daumier` : **Ouvrir dans le Terminal**
+
+- Copier-coller toute la commande, puis **Entrée**
+
+- Ouvrir le résultat dans LibreOffice Writer
+
+- Contrôler que tous les éléments se trouvent dans le fichier, dans le bon ordre
+
+
+<a id='t3-11'/>
+
+## Préparer les pages de titre du catalogue
+
+Comme le catalogue à l'état brut contient déjà des styles de paragraphes, on peut lui appliquer une mise en forme prédéfinie…
+
+- Télécharger le fichier **catalogue.odt**
+- L'ouvrir, puis en sauvegarder le modèle
+- **Fichier** > Modèles > Enregistrer comme modèle
+- Sélectionnez la catégorie du modèle : **Styles**
+- Nommer le modèle : `catalogue`
+
+Dans votre fichier odt :
+
+- **Styles** > Charger des styles depuis un modèle
+- Bien cocher toutes les cases, notamment :
+
+	- Page
+	- Ecraser
+
+<a id='t3-12'/>
+
+## Préparer les pages de titre du catalogue
+
+
+Félicitations !
+
+Vous avez généré un catalogue d'œuvres à partir d'un lot de fichiers.
