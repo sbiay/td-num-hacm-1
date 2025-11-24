@@ -71,14 +71,14 @@ Plan :
 ## Méthode
 [comment1]: <2> (TITRE1)
 
-![Flux de production classique]()
+**Image** : [Flux de production classique](img/catalogue_schema1.png)
 
 
 <a id='t0-2'/>
 
 ## Méthode
 
-![Flux de production à double sortie]()
+**Image** : [Flux de production à double sortie](img/catalogue_schema2.png)
 
 
 <a id='t1'/>
@@ -129,11 +129,11 @@ Plan :
 
 Pour rédiger en md, on utilise un **éditeur de texte** et non un logiciel de traitement de texte :
 
-- [Visual Studio Code}](https://code.visualstudio.com/download)
-- [Pulsar}](https://pulsar-edit.dev/download/)
-- Et tant d'autres à découvrir [ici}](https://www.logiciels.pro/comparatif-logiciels/comparatif-editeurs-markdown/)
+- [\textcolor{blueVisual Studio Code}](https://code.visualstudio.com/download)
+- [\textcolor{bluePulsar}](https://pulsar-edit.dev/download/)
+- Et tant d'autres à découvrir [\textcolor{blueici}](https://www.logiciels.pro/comparatif-logiciels/comparatif-editeurs-markdown/)
 
-Installer [Visual Studio Code}](https://code.visualstudio.com/download) et le démarrer
+Installer [\textcolor{blueVisual Studio Code}](https://code.visualstudio.com/download) et le démarrer
 
 
 <a id='t1-4'/>
@@ -246,7 +246,7 @@ Pour insérer un lien :
 - Sélectionner le texte support du lien : `portail des collections d'Orsay`
 - Saisir `[` pour l'enfermer dans des crochets carrés
 - Après `]` saisir des parenthèses simples `()`
-- Placer entre les parenthèses [cette URL}](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
+- Placer entre les parenthèses [\textcolor{bluecette URL}](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
 
 
 <a id='t2-7'/>
@@ -258,7 +258,7 @@ Pour insérer une image :
 
 - Sous le Titre 2, sauter une ligne et saisir `![]()`
 - Le texte de la légende s'écrit entre `[]`
-- L'[URL de l'image}](https://cdn.mediatheque.epmoo.fr/link/3c9igq/bez1butv71h3w00.jpg) s'écrit entre `()`
+- L'[\textcolor{blueURL de l'image}](https://cdn.mediatheque.epmoo.fr/link/3c9igq/bez1butv71h3w00.jpg) s'écrit entre `()`
 
 On peut également insérer un fichier-image local par son chemin absolu :
 
@@ -339,7 +339,7 @@ La numérotation des notes accepte les chiffres comme les lettres
 Transformer l'ensemble des indications de pagination en notes avec la clé de citation **BetterBibTeX** (qu'il faut d'abord configurer) :
 
 - Ouvrir Zotero et se connecter à son compte
-- Se rendre sur la page de téléchargement de BetterBibTex pour Zotero [\textcolor{blueici}](https://github.com/retorquere/zotero-better-bibtex/releases/latest)
+- Se rendre sur la page de téléchargement de BetterBibTex pour Zotero [\textcolorblueici](https://github.com/retorquere/zotero-better-bibtex/releases/latest)
 
 	- Cliquer droit sur le fichier **.xpi** pour l'enregistrer sous
 	- Dans Zotero : **Outils** > Extensions
@@ -388,7 +388,7 @@ est un logiciel de transformation en ligne de commande (pas d'interface utilisat
 
 - Déjà installé en salle informatique\
 	
-	pour l'installer chez soi, le télécharger [\textcolor{blueici}](https://pandoc.org/installing.html) (au format **msi** pour une bonne installation sous Win)
+	pour l'installer chez soi, le télécharger [\textcolor{blueici](https://pandoc.org/installing.html) (au format **msi** pour une bonne installation sous Win)
 	
 - Dans le volet de navigation Visual Studio cliquer droit sur le dossier `loyretteDaumier18081879Cat1999` > Open in integrated Terminal
 
@@ -446,7 +446,7 @@ L'intitulé des données catalographiques (artiste, titre, technique, etc.) n'es
 
 En l'écrivant parfois à l'extérieur de la balise, on évitera de l'exporter vers la collection virtuelle Omeka, où les intitulés des champs Dublin Core sont écrits et risqueraient d'être redondants (avec notamment titre, date, source)
 
-Voir la notice Omeka [\textcolor{blueici}](https://duelsbiay.omeka.net/items/show/218)
+Voir la notice Omeka [\textcolor{blueici](https://duelsbiay.omeka.net/items/show/218)
 
 
 <a id='t3-4'/>
@@ -457,7 +457,7 @@ En vous inspirant de cette notice modèle, créer et renseigner une nouvelle not
 
 - Avec le volet de navigation, accéder au dossier `.\bib-num\sources\presse\charivari-1865-06-24\`
 - Récupérer le formulaire vierge **notice.md** sur Madoc et le placer dans ce dossier
-- En vous aidant du modèle et de la notice Gallica [\textcolor{blueici}](https://gallica.bnf.fr/ark:/12148/btv1b525144764/f1)
+- En vous aidant du modèle et de la notice Gallica [\textcolor{blueici](https://gallica.bnf.fr/ark:/12148/btv1b525144764/f1)
 
 
 <a id='t3-5'/>
@@ -621,12 +621,12 @@ Python est installé sur les PC de la salle informatique et on peut l'utiliser v
 ## Extraire les données Dublin Core des notices
 
 
-Pour installer python sur un ordinateur personnel, je conseille la suite Anaconda à télécharger [\textcolor{blueici}](https://www.anaconda.com/download/success)
+Pour installer python sur un ordinateur personnel, je conseille la suite Anaconda à télécharger [\textcolor{blueici](https://www.anaconda.com/download/success)
 
 - Une fois installé, lancer Anaconda Powershell Prompt
 - Installer les expressions régulières avec la commande\
 	`conda install regex`
-- Se déplacer dans le dossier de travail à l'aide de la commande **cd** (*change directory*) ; pour comprendre les principales commandes, dont cd, voir [\textcolor{bluece tutoriel}](https://tutorials.codebar.io/command-line/introduction/tutorial.html)
+- Se déplacer dans le dossier de travail à l'aide de la commande **cd** (*change directory*) ; pour comprendre les principales commandes, dont cd, voir [\textcolor{bluece tutoriel](https://tutorials.codebar.io/command-line/introduction/tutorial.html)
 
 
 <a id='t4-3'/>
@@ -656,7 +656,7 @@ Il suffit d'écrire `python ext` puis d'appuyer sur la touche **Tab** pour profi
 **Omeka**\
 Est un CMS (*content manager system*) open source
 
-Accéder à la page d'[\textcolor{blueaccueil}](https://www.omeka.net) et se créer un compte gratuit
+Accéder à la page d'[\textcolor{blue{accueil](https://www.omeka.net) et se créer un compte gratuit
 
 On peut tout aussi gratuitement créer 1 site avec 500 MB de stockage
 
