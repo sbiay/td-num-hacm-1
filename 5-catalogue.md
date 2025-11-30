@@ -16,7 +16,7 @@ Plan :
 	1. [Méthode](#t0-1)
 	2. [Méthode](#t0-2)
 1. [Le langage markdown](#t1)
-	1. [Langages à balises](#t1-1)
+	1. [La famille des langages à balises : HMTL, XML, etc.](#t1-1)
 	2. [Avantages du markdown](#t1-2)
 	3. [Prérequis](#t1-3)
 	4. [Editer un document](#t1-4)
@@ -37,31 +37,33 @@ Plan :
 	12. [Notes](#t2-12)
 	13. [Notes](#t2-13)
 	14. [Commentaires](#t2-14)
-	15. [Transformer un fichier md en traitement de texte](#t2-15)
+	15. [Transformer un fichier .md en traitement de texte](#t2-15)
 3. [Réaliser un catalogue de notices](#t3)
 	1. [Structure des notices](#t3-1)
 	2. [Structure des notices](#t3-2)
 	3. [Structure des notices](#t3-3)
-	4. [Créer une nouvelle notice](#t3-4)
+	4. [Structure des notices](#t3-4)
 	5. [Créer une nouvelle notice](#t3-5)
-	6. [Préparer les pages de titre du catalogue](#t3-6)
-	7. [Rédiger la commande pandoc](#t3-7)
-	8. [Rédiger la commande pandoc](#t3-8)
-	9. [Rédiger la commande pandoc](#t3-9)
-	10. [Rédiger la commande pandoc](#t3-10)
-	11. [Rédiger la commande pandoc](#t3-11)
-	12. [Rédiger la commande pandoc](#t3-12)
-	13. [Mettre en forme le catalogue](#t3-13)
+	6. [Créer une nouvelle notice](#t3-6)
+	7. [Préparer les pages de titre du catalogue](#t3-7)
+	8. [Rédiger la commande Pandoc](#t3-8)
+	9. [Rédiger la commande Pandoc](#t3-9)
+	10. [Rédiger la commande Pandoc](#t3-10)
+	11. [Rédiger la commande Pandoc](#t3-11)
+	12. [Rédiger la commande Pandoc](#t3-12)
+	13. [Rédiger la commande Pandoc](#t3-13)
 	14. [Mettre en forme le catalogue](#t3-14)
+	15. [Mettre en forme le catalogue](#t3-15)
 4. [Créer une collection Omeka](#t4)
 	1. [Extraire les données Dublin Core des notices](#t4-1)
 	2. [Extraire les données Dublin Core des notices](#t4-2)
 	3. [Extraire les données Dublin Core des notices](#t4-3)
-	4. [Charger les données dans une collection Omeka](#t4-4)
+	4. [Extraire les données Dublin Core des notices](#t4-4)
 	5. [Charger les données dans une collection Omeka](#t4-5)
 	6. [Charger les données dans une collection Omeka](#t4-6)
 	7. [Charger les données dans une collection Omeka](#t4-7)
 	8. [Charger les données dans une collection Omeka](#t4-8)
+	9. [Charger les données dans une collection Omeka](#t4-9)
 
 <!--FINET-->
 
@@ -78,7 +80,10 @@ Plan :
 
 ## Méthode
 
-**Image** : [Flux de production à double sortie](img/catalogue_schema2.png)
+**Image** : [Flux de production à double sortie`\\`=latex à partir d'un lot de fichiers en markdown](img/catalogue_schema2.png)
+
+
+Exemple de collection Omeka [\textcolor{blueici}](https://duelsbiay.omeka.net/items/browse)
 
 
 <a id='t1'/>
@@ -88,11 +93,10 @@ Plan :
 
 <a id='t1-1'/>
 
-## Langages à balises
+## La famille des langages à balises : HMTL, XML, etc.
 
 
 ```html
-<!DOCTYPE html>
 <html>
 	<head>
 		<title>Une petite page HTML</title>
@@ -115,10 +119,10 @@ Plan :
 
 ## Avantages du markdown
 
-- Syntaxe simple à comprendre
-- Rapidité de saisie
+- Simple à apprendre
+- Simple à écrire
 - Lisible, même sans prévisualisation
-- Portabilité des fichiers : texte brut, léger, consultable sur tous les éditeurs, dans toutes les OS
+- Grande portabilité des fichiers : texte brut, léger, consultable sur tous les éditeurs, dans toutes les OS
 - Flexibilité du contenu : conversion possible dans de multiples formats
 - Très largement utilisé dans les systèmes de gestion de contenu (bases de données, blogues scientifiques, etc.)
 
@@ -127,7 +131,8 @@ Plan :
 
 ## Prérequis
 
-Pour rédiger en md, on utilise un **éditeur de texte** et non un logiciel de traitement de texte :
+Pour rédiger en .md, on utilise un **éditeur de texte**\
+et non un logiciel de traitement de texte :
 
 - [\textcolor{blueVisual Studio Code}](https://code.visualstudio.com/download)
 - [\textcolor{bluePulsar}](https://pulsar-edit.dev/download/)
@@ -140,15 +145,16 @@ Installer [\textcolor{blueVisual Studio Code}](https://code.visualstudio.com/dow
 
 ## Editer un document
 
-- Télécharger le dossier **daumier.zip** depuis Madoc
+- Télécharger le dossier **daumier2.zip** depuis Madoc
 - Extraire le contenu
 - Ouvrir Visual Studio
-- Dans le volet d'exploration (Ctrl + Maj + E), ouvrir le dossier `daumier`
+- Dans le volet d'exploration (Ctrl + Maj + E), ouvrir le dossier `daumier2`
 - Naviguer via le volet d'exploration jusqu'au fichier 
 	`.\bib-num\etudes\loyretteDaumier18081879Cat1999\notes.md`
 - L'ouvrir
 - Fermer le chat à droite
-- Cliquer sur le bouton de prévisualisation en haut à droite (icône en forme de double page avec une loupe)
+- Cliquer sur le bouton de prévisualisation en haut à droite\
+	(icône en forme de double page avec une loupe)
 
 
 <a id='t1-5'/>
@@ -157,7 +163,7 @@ Installer [\textcolor{blueVisual Studio Code}](https://code.visualstudio.com/dow
 
 - **En-tête** : les métadonnées du document au format Yaml
 
-	- Certains caractères sont interdits, comme `:`
+	- Certains caractères sont interdits, comme les deux points (`:`)
 	- `lang: fr-FR`  est très important pour une transformation selon des règles typographiques françaises (appel de note avant la ponctuation) 
 
 - **Corps** du document
@@ -194,7 +200,8 @@ Le retour à la ligne n'interrompt pas un paragraphe\
 Seule une ligne vide marque une séparation entre deux paragraphes :
 
 - Remarquer que la phrase `Oeuvre bien conservée…` est écrite sur plusieurs lignes
-- Remplacer les retours à la lignes par des espaces : la prévisualisation du document n'est pas affectée
+- Remplacer les retours à la lignes par des espaces…
+- On remarque que la prévisualisation du document n'est pas affectée
 
 On force un retour à la ligne avec `\` :
 
@@ -208,7 +215,7 @@ On force un retour à la ligne avec `\` :
 **Blocs de citation**\
 Le symbole `>` permet de baliser un bloc en retrait\
 
-- A la fin du fichier, placer `>` (suivi d'une espace) devant `Degas admira` et devant `A Daumier`
+- À la fin du fichier, placer `>` (suivi d'une espace) devant `Degas admira` et devant `A Daumier`
 
 
 <a id='t2-4'/>
@@ -216,7 +223,7 @@ Le symbole `>` permet de baliser un bloc en retrait\
 ## Styles de caractères
 
 **Italique**\
-Le symbole `*` permet de baliser une chaîne de caractères en italique :
+Le symbole `*` permet de baliser le début et la fin d'une chaîne de caractères en italique :
 
 - Ligne 23, saisir un `*` avant `Fourberies` et après `Scapin`
 - On peut aussi sélectionner les mots (Ctrl + Maj + flèche) et appuyer une seule fois sur `*`
@@ -245,7 +252,7 @@ Pour insérer un lien :
 
 - Sélectionner le texte support du lien : `portail des collections d'Orsay`
 - Saisir `[` pour l'enfermer dans des crochets carrés
-- Après `]` saisir des parenthèses simples `()`
+- Après `]`, saisir des parenthèses simples `()`
 - Placer entre les parenthèses [\textcolor{bluecette URL}](https://www.musee-orsay.fr/fr/oeuvres/crispin-et-scapin-10867)
 
 
@@ -264,7 +271,7 @@ On peut également insérer un fichier-image local par son chemin absolu :
 
 - Dans le volet de navigation de Visual Studio > clic droit sur le fichier visé > **Copy Path**
 
-- Le coller dans le fichier md à la place de l'URL de l'image
+- Le coller dans le fichier .md à la place de l'URL de l'image
 
 
 <a id='t2-8'/>
@@ -273,16 +280,16 @@ On peut également insérer un fichier-image local par son chemin absolu :
 
 **Images citées par URL** :
 
-- Prévisualisation md
+- Prévisualisation .md
 - Export direct vers le catalogue traitement de texte\
-	(via pandoc)
+	(via Pandoc)
 - Export direct vers Omeka (via CSV)
 
 **Images citées par chemin absolu** :
 
-- \textcolorpurpleNe permet pas la prévisualisation md
+- \textcolorpurpleNe permet pas la prévisualisation .md
 - Export direct vers le catalogue traitement de texte\
-	(via pandoc)
+	(via Pandoc)
 - \textcolorpurpleNe permet pas l'export direct vers Omeka (via CSV)
 
 <a id='t2-9'/>
@@ -290,8 +297,8 @@ On peut également insérer un fichier-image local par son chemin absolu :
 ## Liens et images
 
 **Format des images**\
-afin d'éviter que des images de grand format ne débordent de la page lors d'une transformation vers traitement de texte,
-indiquer en bout de ligne une dimension maximale :
+Afin d'éviter que des images de grand format ne débordent de la page lors d'une transformation vers traitement de texte,
+indiquer en bout de ligne une dimension maximale (après les parenthèses du lien de l'image, sans laisser d'espace) :
 
 - `{ width=16cm }` pour une image de format paysage
 - `` pour une image de format portrait
@@ -311,7 +318,7 @@ L'insertion de notes accepte plusieurs syntaxes
 	- `[^<!---->1]: J. Adhémar, *Honoré Daumier*, Paris, P. Tisné, 1954, p. 126.`
 
 Attention copier/coller le caractère `^` peut ne pas fonctionner\
-La numérotation des notes accepte les chiffres comme les lettres
+*Remarque :* La numérotation des notes accepte les chiffres comme les lettres
 
 
 <a id='t2-11'/>
@@ -322,14 +329,14 @@ La numérotation des notes accepte les chiffres comme les lettres
 
 `Du texte^[Le contenu d'une note].`
 
-- \textcolorpurpleNe permet pas la prévisualisation md
+- \textcolorpurpleNe permet pas la prévisualisation .md
 - Export direct vers le catalogue traitement de texte\
 
 
 **Syntaxe principale**
 
-- Prévisualisation md
-- \textcolorpurpleLes notes qui auraient le même numéro ne peuvent pas être fusionnées via pandoc
+- Prévisualisation .md
+- \textcolorpurpleLes notes qui auraient le même numéro ne peuvent pas être fusionnées via Pandoc
 
 
 <a id='t2-12'/>
@@ -339,7 +346,7 @@ La numérotation des notes accepte les chiffres comme les lettres
 Transformer l'ensemble des indications de pagination en notes avec la clé de citation **BetterBibTeX** (qu'il faut d'abord configurer) :
 
 - Ouvrir Zotero et se connecter à son compte
-- Se rendre sur la page de téléchargement de BetterBibTex pour Zotero [\textcolorblueici](https://github.com/retorquere/zotero-better-bibtex/releases/latest)
+- Se rendre sur la page de téléchargement de BetterBibTex pour Zotero [\textcolor{blueici}](https://github.com/retorquere/zotero-better-bibtex/releases/latest)
 
 	- Cliquer droit sur le fichier **.xpi** pour l'enregistrer sous
 	- Dans Zotero : **Outils** > Extensions
@@ -354,8 +361,8 @@ Transformer l'ensemble des indications de pagination en notes avec la clé de ci
 
 Dans le fichier de notes :
 
-- Ouvrir la boîte de dialogue de cherche-remplace (Ctrl + H) :
-- Activer les expressions régulières : `.*`
+- Ouvrir la boîte de dialogue de cherche-remplace (Ctrl + H)
+- Activer les expressions régulières en cliquant sur `.*`
 - Rechercher : `\s\[(p.\s\d+)\]`
 	- `\s` : caractère blanc (espace ou tabulation --- *space*)
 	- `\d` : chiffre (*digit*)
@@ -369,7 +376,7 @@ Attention copier/coller le caractère `^` peut ne pas fonctionner\
 
 ## Commentaires
 
-Pour saisir des informations qui ne seront pas visibles dans la prévisualisation ou lors de l'export vers le catalogue traitement de texte :
+Pour saisir des informations qui ne seront pas visibles dans la prévisualisation ou lors de l'export vers le catalogue en traitement de texte :
 
 \<\!\-\-Du texte en commentaire sur une ligne\-\-\>
 
@@ -381,16 +388,18 @@ sur plusieurs lignes\
 
 <a id='t2-15'/>
 
-## Transformer un fichier md en traitement de texte
+## Transformer un fichier .md en traitement de texte
 
 **Pandoc**\
-est un logiciel de transformation en ligne de commande (pas d'interface utilisateur) :
+est un logiciel de transformation en ligne de commande \
+(pas d'interface utilisateur) :
 
 - Déjà installé en salle informatique\
 	
-	pour l'installer chez soi, le télécharger [\textcolor{blueici](https://pandoc.org/installing.html) (au format **msi** pour une bonne installation sous Win)
+	Pour l'installer chez soi, le télécharger [\textcolor{blueici}](https://Pandoc.org/installing.html) (au format **msi**\
+	pour une bonne installation sous Win)
 	
-- Dans le volet de navigation Visual Studio cliquer droit sur le dossier `loyretteDaumier18081879Cat1999` > Open in integrated Terminal
+- Dans le volet de navigation de Visual Studio, cliquer droit sur le dossier `loyretteDaumier18081879Cat1999` > Open in integrated Terminal
 
 - Écrire (ou copier-coller) la commande suivante :\
 	`pandoc .\notes.md -o sortie-traitnt-txt.odt`\
@@ -407,25 +416,32 @@ est un logiciel de transformation en ligne de commande (pas d'interface utilisat
 
 ## Structure des notices
 
-
 - Avec le volet de navigation, accéder au dossier `bib-num\sources\presse\charivari-1851-05-12`
 - Ouvrir le fichier `notice.md`
 
 Il contient tous les éléments constitutifs d'une notice :
 
--  Image
+- Image
 - Données catalographiques
 - Bibliographie (les données ne sont pas authentiques)
 - Brève analyse
 
-Et des éléments de structure :
 
--  Titre 2 pour la notice dans son ensemble, qui prendra la forme d'une numérotation qui sera écrite automatiquement (par exemple `Cat. 1`)
+<a id='t3-2'/>
+
+## Structure des notices
+
+Le fichier contient aussi des éléments de structure :
+
+- Titre 2 pour la notice dans son ensemble, qui prendra la forme d'une numérotation écrite automatiquement (par exemple `Cat. 1`)
 - Titre 3 pour séparer l'analyse dans le futur catalogue
+
+Remarques :
+
 - Ne rien écrire dans ces titres !
 - On réserve le niveau Titre 1 pour les titres des grandes parties du catalogue : Estampe, Peinture, etc.
 
-<a id='t3-2'/>
+<a id='t3-3'/>
 
 ## Structure des notices
 
@@ -438,18 +454,16 @@ Elles permettront plus tard de récupérer automatiquement le contenu saisi dans
 Les données seront envoyées vers le logiciel Omeka qui demande qu'elles soient exprimée selon le modèle **Dublin Core**
 
 
-<a id='t3-3'/>
+<a id='t3-4'/>
 
 ## Structure des notices
 
 L'intitulé des données catalographiques (artiste, titre, technique, etc.) n'est pas toujours écrit à l'intérieur de la balise `<data…`
 
-En l'écrivant parfois à l'extérieur de la balise, on évitera de l'exporter vers la collection virtuelle Omeka, où les intitulés des champs Dublin Core sont écrits et risqueraient d'être redondants (avec notamment titre, date, source)
-
-Voir la notice Omeka [\textcolor{blueici](https://duelsbiay.omeka.net/items/show/218)
+En l'écrivant parfois à l'extérieur de la balise, on évitera de l'exporter vers la collection virtuelle Omeka (voir un exemple de notice [\textcolor{blueici}](https://duelsbiay.omeka.net/items/show/223)), où les intitulés des champs Dublin Core sont écrits et risqueraient d'être redondants (avec notamment titre, date, source)
 
 
-<a id='t3-4'/>
+<a id='t3-5'/>
 
 ## Créer une nouvelle notice
 
@@ -457,10 +471,10 @@ En vous inspirant de cette notice modèle, créer et renseigner une nouvelle not
 
 - Avec le volet de navigation, accéder au dossier `.\bib-num\sources\presse\charivari-1865-06-24\`
 - Récupérer le formulaire vierge **notice.md** sur Madoc et le placer dans ce dossier
-- En vous aidant du modèle et de la notice Gallica [\textcolor{blueici](https://gallica.bnf.fr/ark:/12148/btv1b525144764/f1)
+- En vous aidant du modèle et de la notice Gallica [\textcolor{blueici}](https://gallica.bnf.fr/ark:/12148/btv1b525144764/f1)
 
 
-<a id='t3-5'/>
+<a id='t3-6'/>
 
 ## Créer une nouvelle notice
 
@@ -469,13 +483,16 @@ Les plus rapides créeront aussi une notice pour cette œuvre :
 `.\collections\france\paris-louvre\amateurs-estampes-RF-4036\`
 
 
-<a id='t3-6'/>
+Voir la notice du Louvre [\textcolor{bluelà}](https://arts-graphiques.louvre.fr/detail/oeuvres/1/16708-Les-amateurs-destampes-max)
+
+
+<a id='t3-7'/>
 
 ## Préparer les pages de titre du catalogue
 
 Ce sont les titres 1 qui constitueront les titres des grandes parties du catalogue
 
-Pour chacun, on a créé un fichier md qui se trouve à la racine du dossier `daumier` :
+Pour chacun, on a créé un fichier .md qui se trouve à la racine du dossier `daumier2` :
 
 - partie1-estampe.md
 - partie2-dessins.md
@@ -484,27 +501,27 @@ Pour chacun, on a créé un fichier md qui se trouve à la racine du dossier `da
 On a également créé un fichier **metadonnees.md** qu'il faut à présent compléter des informations à faire apparaître sur la pièce de titre du catalogue
 
 
-<a id='t3-7'/>
+<a id='t3-8'/>
 
-## Rédiger la commande pandoc
+## Rédiger la commande Pandoc
 
 Pour transformer avec **Pandoc**, il faut rédiger une ligne de commande comme précédemment :
 
 `pandoc .\notes.md -o sortie-traitnt-txt.odt`
 
 Mais on doit désormais indiquer en 1^er^ argument\
-(entre `pandoc` et `-o`)\
+(entre `pandoc` et `-o`) 
 l'ensemble des fichiers qui composent le catalogue
 **dans l'ordre souhaité**
 
-<a id='t3-8'/>
+<a id='t3-9'/>
 
-## Rédiger la commande pandoc
+## Rédiger la commande Pandoc
 
 
 - Créer un fichier **commande-pandoc.txt**\
-	dans le dossier **daumier**\
-	C'est possible dans le volet de navigation, par un clic droit
+	dans le dossier `daumier2`
+	(c'est possible dans le volet de navigation, par un clic droit)
 - L'ouvrir dans Visual Studio Code
 - Inscrire dans ce fichier, ligne après ligne :
 
@@ -514,13 +531,13 @@ l'ensemble des fichiers qui composent le catalogue
 	partie1-estampe.md
 	```
 
-<a id='t3-9'/>
+<a id='t3-10'/>
 
-## Rédiger la commande pandoc
+## Rédiger la commande Pandoc
 
 - Pour inscrire le chemin de fichier de chaque notice dans l'ordre souhaité : 
 	
-	- Dans l'explorateur de fichiers Windows, se placer dans le dossier `daumier`
+	- Dans l'explorateur de fichiers Windows, se placer dans le dossier `daumier2`
 	- Rechercher **notice.md**
 	- Cliquer gauche sur le premier fichier que l'on veut insérer dans le catalogue
 	- Ctrl + C
@@ -529,21 +546,21 @@ l'ensemble des fichiers qui composent le catalogue
 		`bib-num/sources/presse/charivari-1851-05-12/notice.md`\
 		`bib-num/sources/presse/charivari-1865-06-24/notice.md`
 
-<a id='t3-10'/>
+<a id='t3-11'/>
 
-## Rédiger la commande pandoc
+## Rédiger la commande Pandoc
 
 Une fois toutes les notices ajoutées, la dernière ligne de la commande est :
 
 `-o catalogue.odt`
 
 
-<a id='t3-11'/>
+<a id='t3-12'/>
 
-## Rédiger la commande pandoc
+## Rédiger la commande Pandoc
 
 Il faut à présent transformer l'ensemble des lignes en une seule ligne.
-On conserve la version écrite sur plusieurs lignes car il est facile d'en modifier l'ordre au besoin :
+On conserve la version écrite sur plusieurs lignes, car il est facile d'en modifier l'ordre si besoin :
 
 - Dans Visual Studio, ouvrir un document brouillon\
 	(Ctrl + N)
@@ -555,13 +572,14 @@ On conserve la version écrite sur plusieurs lignes car il est facile d'en modif
 - Copier-coller le résultat en bas du fichier **commande-pandoc.txt** (ne pas supprimer le reste)
 
 
-<a id='t3-12'/>
+<a id='t3-13'/>
 
-## Rédiger la commande pandoc
+## Rédiger la commande Pandoc
 
-Pour finir, lancer pandoc avec la commande :
+Pour finir, lancer Pandoc avec la commande :
 
-- Cliquer droit sur le volet de navigation : **Open in integrated Terminal**
+- Cliquer droit sur le volet de navigation :\
+	**Open in integrated Terminal**
 
 - Copier-coller toute la commande en une ligne, puis **Entrée**
 
@@ -570,7 +588,7 @@ Pour finir, lancer pandoc avec la commande :
 - Contrôler que tous les éléments se trouvent dans le fichier, dans le bon ordre
 
 
-<a id='t3-13'/>
+<a id='t3-14'/>
 
 ## Mettre en forme le catalogue
 
@@ -590,7 +608,7 @@ Dans votre propre catalogue odt :
 	- Page
 	- Ecraser
 
-<a id='t3-14'/>
+<a id='t3-15'/>
 
 ## Mettre en forme le catalogue
 
@@ -604,16 +622,17 @@ Vous avez généré un catalogue d'œuvres à partir d'un lot de fichiers.
 <a id='t4'/>
 
 # Créer une collection Omeka
-[comment4]: <38> (TITRE1)
+[comment4]: <39> (TITRE1)
 
 <a id='t4-1'/>
 
 ## Extraire les données Dublin Core des notices
-[comment5]: <39> (TITRE2)
+[comment5]: <40> (TITRE2)
 
-Pour extraire les données inscrites dans les balises `<meta…` des notices, on utilise un script en langage python : **extraction-donnees.py**
+Pour extraire les données inscrites dans les balises `<data…` des notices, on utilise un script en langage python : **extraction-donnees.py**
 
-Python est installé sur les PC de la salle informatique et on peut l'utiliser via le terminal de Visual Studio Code
+Python est installé sur les PC de la salle informatique\
+et on peut l'utiliser via le terminal de Visual Studio Code
 
 
 <a id='t4-2'/>
@@ -621,19 +640,32 @@ Python est installé sur les PC de la salle informatique et on peut l'utiliser v
 ## Extraire les données Dublin Core des notices
 
 
-Pour installer python sur un ordinateur personnel, je conseille la suite Anaconda à télécharger [\textcolor{blueici](https://www.anaconda.com/download/success)
+Pour installer python sur un ordinateur personnel…
 
-- Une fois installé, lancer Anaconda Powershell Prompt
-- Installer les expressions régulières avec la commande\
-	`conda install regex`
-- Se déplacer dans le dossier de travail à l'aide de la commande **cd** (*change directory*) ; pour comprendre les principales commandes, dont cd, voir [\textcolor{bluece tutoriel](https://tutorials.codebar.io/command-line/introduction/tutorial.html)
+**Sous Windows**
 
+- Télécharger python [\textcolor{blueici}](https://www.python.org/downloads/windows/)
+- Suivre [\textcolor{bluece tutoriel}](https://www.it-connect.fr/python-installer-vs-code-sous-windows/#II_Installer_Python_sous_Windows)
+- Dans le dialogue d'installation, cliquer sur :
+	- Installer avec pip, etc.
+	- Ajouter python.exe au PATH
+
+**Sous Mac OS**
+
+- Télécharger python [\textcolor{blueici}](https://www.python.org/downloads/macos/)
+- Suivre [\textcolor{bluece tutoriel}](https://www.youtube.com/watch?v=Zk7TG5BqxjY)
+	en anglais avec un super accent néerlandais !
+
+<!--
+pour comprendre les principales commandes du terminal, dont cd, voir ce tutoriel
+https://tutorials.codebar.io/command-line/introduction/tutorial.html
+-->
 
 <a id='t4-3'/>
 
 ## Extraire les données Dublin Core des notices
 
-Toujours dans le terminal positionné dans le dossier `daumier`, saisir la commande :
+Toujours dans le terminal positionné dans le dossier `daumier2`, saisir la commande :
 
 - On commence par installer un module nécessaire à la future transformation :\
 
@@ -648,22 +680,33 @@ Toujours dans le terminal positionné dans le dossier `daumier`, saisir la comma
 
 Il suffit d'écrire `python ext` puis d'appuyer sur la touche **Tab** pour profiter de l'autocomplétion, puis Entrée
 
-
 <a id='t4-4'/>
+
+## Extraire les données Dublin Core des notices
+
+À la maison, sous Windows, la commande à écrire dans le terminal sera un peu différente :
+
+```shell
+python.exe extraction-donnees.py
+```
+
+
+<a id='t4-5'/>
 
 ## Charger les données dans une collection Omeka
 
 **Omeka**\
 Est un CMS (*content manager system*) open source
 
-Accéder à la page d'[\textcolor{blue{accueil](https://www.omeka.net) et se créer un compte gratuit
+Accéder à la page d'[\textcolor{blueaccueil}](https://www.omeka.net) et se créer un compte gratuit
 
-On peut tout aussi gratuitement créer 1 site avec 500 MB de stockage
+L'utilisation gratuite permet la création d'un site avec 500 MB de stockage
 
-Créer votre site : je vous conseille d'utiliser votre nom ou un mot lie à votre recherche pour en définir l'adresse
+- Créer votre site :
+	je vous conseille d'utiliser votre nom ou un mot lie à votre recherche pour en définir l'adresse
 
 
-<a id='t4-5'/>
+<a id='t4-6'/>
 
 ## Charger les données dans une collection Omeka
 
@@ -675,7 +718,7 @@ Créer votre site : je vous conseille d'utiliser votre nom ou un mot lie à vot
 - Settings : on peut renseigner les informations sur le site, notamment le **Site Title**
 
 
-<a id='t4-6'/>
+<a id='t4-7'/>
 
 ## Charger les données dans une collection Omeka
 
@@ -687,7 +730,7 @@ Cliquer sur CSV import dans le menu de droite
 - Passer à l'étape suivante
 
 
-<a id='t4-7'/>
+<a id='t4-8'/>
 
 ## Charger les données dans une collection Omeka
 
@@ -705,7 +748,7 @@ Cliquer sur CSV import dans le menu de droite
 - Cocher la case **Files** pour la dernière ligne
 
 
-<a id='t4-8'/>
+<a id='t4-9'/>
 
 ## Charger les données dans une collection Omeka
 
