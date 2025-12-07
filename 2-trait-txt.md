@@ -10,6 +10,7 @@ Traitement de texte
 
 Plan :
 
+	1. [Prérequis](#t0-1)
 1. [Appliquer la feuille de style par défaut](#t1)
 	1. [La structure d'abord, l'apparence ensuite ](#t1-1)
 	2. [Styles de caractères ](#t1-2)
@@ -51,10 +52,24 @@ Avantages :<!--Montrer le fichier vertus-resultat-article-complet.odt en exempl
 - Application du même modèle à plusieurs documents
 
 
+<a id='t0-1'/>
+
+## Prérequis
+
+Pour travailler sur son ordinateur personnel,\
+télécharger Libre Office [\textcolor{blueici}](https://fr.libreoffice.org/download/telecharger-libreoffice/)
+
+Pour les Mac, choisir la bonne version à installer : pour processeur Intel ou pour processeur Apple…
+
+![](https://communities.apple.com/fr/content/attachment/4c285a9b-64c9-4ae9-ade4-1b1b68115de0)
+
+Pour vérifier quel est le processeur de votre ordinateur, voir la démarche [\textcolor{blueici}](https://support.norton.com/sp/fr/fr/home/current/solutions/v20230925124107675)
+
+
 <a id='t1'/>
 
 # Appliquer la feuille de style par défaut
-[comment1]: <2> (TITRE1)
+[comment1]: <3> (TITRE1)
 
 
 <a id='t1-1'/>
@@ -146,54 +161,54 @@ On peut également commenter des passages avec\
 <a id='t2'/>
 
 # Personnaliser les styles
-[comment4]: <8> (TITRE1)
+[comment4]: <9> (TITRE1)
 
 
 ### <9>
 
 <!--
 
-[comment5]: <9> (Faire appel aux styles de titres permet :)
+[comment5]: <10> (Faire appel aux styles de titres permet :)
 
-[comment6]: <9> (- De modifier de manière homogène la mise en forme)
+[comment6]: <10> (- De modifier de manière homogène la mise en forme)
 
-[comment7]: <9> (De répercuter les propriétés des styles sur leurs enfants : il y a des relations de hiérarchie entre les styles, les enfants héritent les caractères des parents)
+[comment7]: <10> (De répercuter les propriétés des styles sur leurs enfants : il y a des relations de hiérarchie entre les styles, les enfants héritent les caractères des parents)
 
-[comment8]: <9> (- De bien gérer les enchaînements de paragraphes --un style de titre est toujours collé au paragraphe suivant)
+[comment8]: <10> (- De bien gérer les enchaînements de paragraphes --un style de titre est toujours collé au paragraphe suivant)
 
-[comment9]: <9> (- De créer une table des matières)
+[comment9]: <10> (- De créer une table des matières)
 
-[comment10]: <9> (Auj. on va commencer par modifier ces styles en veillant à :)
+[comment10]: <10> (Auj. on va commencer par modifier ces styles en veillant à :)
 
-[comment11]: <9> (Utiliser la hiérarchie des styles, on veut passer Titre 1, 2 et 3 en Georgia, on va mettre tous les titres en Georgia au lieu de faire la même chose trois fois)
+[comment11]: <10> (Utiliser la hiérarchie des styles, on veut passer Titre 1, 2 et 3 en Georgia, on va mettre tous les titres en Georgia au lieu de faire la même chose trois fois)
 
-[comment12]: <9> (- Ne pas utiliser la touche entrée, car encore une fois on veut gérer proprement les enchaînements de paragraphes)
+[comment12]: <10> (- Ne pas utiliser la touche entrée, car encore une fois on veut gérer proprement les enchaînements de paragraphes)
 
-[comment13]: <9> (- Faire des modifications basiques sur les polices, les effets de caractères etc.)
+[comment13]: <10> (- Faire des modifications basiques sur les polices, les effets de caractères etc.)
 
-[comment14]: <9> (2^e^ chose. On a travaillé sur un document de type article ; mais ce qui nous intéresse c'est de faire un mémoire : on va travailler sur la mise en page.)
+[comment14]: <10> (2^e^ chose. On a travaillé sur un document de type article ; mais ce qui nous intéresse c'est de faire un mémoire : on va travailler sur la mise en page.)
 
-[comment15]: <9> (- Créer une page de titre, pour l'instant très basique, avec simplement un titre, on pourra l'élaborer plus tard)
+[comment15]: <10> (- Créer une page de titre, pour l'instant très basique, avec simplement un titre, on pourra l'élaborer plus tard)
 
-[comment16]: <9> (- Prévoir l'impression du mémoire recto-verso.)
+[comment16]: <10> (- Prévoir l'impression du mémoire recto-verso.)
 
-[comment17]: <9> (On entre dans de la typographie un peu spécifique : la mise en page d'imprimerie observe certaines règles pas évidentes à appliquer dans un traitement de texte basique.)
+[comment17]: <10> (On entre dans de la typographie un peu spécifique : la mise en page d'imprimerie observe certaines règles pas évidentes à appliquer dans un traitement de texte basique.)
 
-[comment18]: <9> (- Les **pages de titres** sont toujours à droite, même s'il faut laisser un blanc à gauche)
+[comment18]: <10> (- Les **pages de titres** sont toujours à droite, même s'il faut laisser un blanc à gauche)
 
-[comment19]: <9> (- La position des numéros alterne sur la page de droite et la page de gauche)
+[comment19]: <10> (- La position des numéros alterne sur la page de droite et la page de gauche)
 
-[comment20]: <9> (- Si on laisse un blanc avant une page de titre, il ne faut pas de numéro sur la page blanche)
+[comment20]: <10> (- Si on laisse un blanc avant une page de titre, il ne faut pas de numéro sur la page blanche)
 
-[comment21]: <9> (- Et on ne veut évidemment pas de numéro sur la première et c'est mieux de ne pas en avoir non plus sur les autres pages de titre)
+[comment21]: <10> (- Et on ne veut évidemment pas de numéro sur la première et c'est mieux de ne pas en avoir non plus sur les autres pages de titre)
 
-[comment22]: <9> (- On peut faire des titres courants : qui rappellent le chapitre et la sous partie)
+[comment22]: <10> (- On peut faire des titres courants : qui rappellent le chapitre et la sous partie)
 
-[comment23]: <9> (Pour faire tout cela on va utiliser des styles de pages : pour avoir une Première page qui sera le titre du mémoire, et une succession de page gauche et de page droite)
+[comment23]: <10> (Pour faire tout cela on va utiliser des styles de pages : pour avoir une Première page qui sera le titre du mémoire, et une succession de page gauche et de page droite)
 
-[comment24]: <9> (Une fois qu'on aura fait cela, on ajoutera à notre titre de Chapitre la mention « Chapitre 1 »)
+[comment24]: <10> (Une fois qu'on aura fait cela, on ajoutera à notre titre de Chapitre la mention « Chapitre 1 »)
 
-[comment25]: <9> (Puis on crééra la table des matières, à laquelle on donnera la même apparence qu'un Titre 1, mais si on en faisait un Titre 1 elle donnerait elle-même sa pagination.)
+[comment25]: <10> (Puis on crééra la table des matières, à laquelle on donnera la même apparence qu'un Titre 1, mais si on en faisait un Titre 1 elle donnerait elle-même sa pagination.)
 
 -->
 
@@ -327,7 +342,7 @@ Appliquer les autres modifications au Titre 1 :
 <a id='t3'/>
 
 # Mettre en page un mémoire
-[comment26]: <18> (TITRE1)
+[comment26]: <19> (TITRE1)
 
 
 <a id='t3-1'/>
@@ -369,7 +384,7 @@ Une page de titre\
 
 - Peut omettre le numéro de page
 
-[comment28]: <20> (Exemple privilégié : G. Bührer-Thierry et C. Mériaux, *La France avant la France : 481-888*, Paris, 2010.)
+[comment28]: <21> (Exemple privilégié : G. Bührer-Thierry et C. Mériaux, *La France avant la France : 481-888*, Paris, 2010.)
 
 
 <a id='t3-2'/>
@@ -539,7 +554,7 @@ La p. 2, au verso de la page de titre, reste blanche et sans numéro pour que l
 <a id='t4'/>
 
 # Compléter le paratexte
-[comment32]: <34> (TITRE1)
+[comment32]: <35> (TITRE1)
 
 
 <a id='t4-1'/>
@@ -616,7 +631,7 @@ on pourra modifier les styles **Table des matières niveau *n***, afin de hiéra
 
 <!--
 Page 1 : la pièce de titre <40>
-[comment34]: <40> (TITRE2)
+[comment34]: <41> (TITRE2)
 
 Si vous ouvrez un livre récent imprimé en France et que vous cherchez où est la p. 1 (en remontant depuis les premières pages numérotées), vous arriverez sans doute à la première feuille du livre.
 
@@ -700,7 +715,7 @@ Les logiciels de PAO les plus connus sont :
 - QuarkXPress
 - Scribus : **le seul gratuit** et pour PC comme pour Mac
 
-[comment37]: <44> (Scribus fonctionne également sous Ubuntu.)
+[comment37]: <45> (Scribus fonctionne également sous Ubuntu.)
 
 Vous voulez faire au plus simple ?\
 LibreOffice Writer avec une seule image par page !
@@ -748,7 +763,7 @@ Maintenant, si j'ajoute des éléments à ma table des illustrations, les numér
 <a id='t5'/>
 
 # Importer/exporter un style
-[comment38]: <47> (TITRE1)
+[comment38]: <48> (TITRE1)
 
 
 ### <48>
@@ -776,7 +791,7 @@ Pour appliquer le style à un autre document :
 <a id='t6'/>
 
 # Règles typographiques
-[comment39]: <49> (TITRE1)
+[comment39]: <50> (TITRE1)
 
 
 <a id='t6-1'/>
@@ -820,7 +835,7 @@ Il est fréquent d'ajouter par erreurs plusieurs espaces les unes derrières les
 
 - Ouvrir la boîte de dialogue de recherche (**Ctrl + H**)
 
-- Cocher Expressions régulières
+- Cocher **Expressions régulières**
 
 - Chercher : `\s2,`\
 
@@ -837,7 +852,7 @@ Appliquer des espaces insécables avant la ponctuation qui l'exige :
 	- `[`*espace justifiante*`\S]` On cherche une espace justifiante ou un caractère qui est tout sauf une espace,\
 	- `([:;!? »])` suivi d'un caractère qui doit obligatoirement être précédé d'une espace insécable
 
--  Remplacer : `[`*espace insécable*`]$1`\
+-  Remplacer par une espace insécable\
 	 Pour insérer une espace insécable sous Windows, maintenez enfoncée la touche {Alt et, sur le pavé numérique, tapez 0160.}
 
 
@@ -847,7 +862,7 @@ Appliquer des espaces insécables avant la ponctuation qui l'exige :
 
 - Chercher : `(«)[ ]?`\
 
-- Remplacer : `$1` *et une espace insécable*\
+- Remplacer : ``\\`=latex1` *et une espace insécable*\
 
 Appliquer des espaces insécables entre une abréviation de type n. ou p. et le nombre qui le suit (*n. 1, p. 24* par exemple) :
 
@@ -858,6 +873,6 @@ Appliquer des espaces insécables entre une abréviation de type n. ou p. et l
 	`[ ]?` suivi de 0 ou 1 espace justifiante,\
 	`\d` suivie d'un chiffre.
 
--  Remplacer : `$1` *une espace insécable* `$2`
+-  Remplacer : ``\\`=latex1` *une espace insécable* ``\\`=latex2`
 
 
