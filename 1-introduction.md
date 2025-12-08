@@ -23,13 +23,17 @@ Plan :
 <!--FINET-->
 
 
+
 ### <2>
 [comment1]: <2> (TITRE1)
 
 
 1. Structurer du texte sous LibreOffice Writer (2h) 
+
 2. Créer une collection bibliographique avec Zotero (2h) 
+
 3. Créer une collection iconographique avec Tropy (2h) 
+
 4. Générer un catalogue d'œuvres à partir d'une collection de fichiers (4h) 
 
 Bonus : générer une collection virtuelle Omeka à partir de la même collection de fichiers
@@ -54,17 +58,21 @@ Pour s'équiper d'un ordinateur, voir [ici](https://www.univ-nantes.fr/vie-de-ca
 ### <4>
 [comment2]: <4> (TITRE1)
 
-**Rendu n^o^ 1** -- Des notes de cours de votre choix sous forme de traitement de texte (odt) :
 
-- 4 pages minimum
-- Utilisation des styles de titres, de paragraphes, de caractères
-- Au moins une partie de texte avec un style d'accentuation des caractères (par exemple : les mots importants ou les dates…)
+**Devoir maison** -- Des notes de cours de votre choix sous forme de traitement de texte (.odt, .doc, .docx) : 
+
+- 4 pages minimum, sans aucune ligne vide (¶)
+- Utilisation des styles de paragraphes, de caractères
 - Au moins trois niveaux de titres
-- Au moins trois références bibliographiques en notes de bas de page
+- Au moins une partie de texte avec un style d'accentuation des caractères (par exemple : les mots importants, les noms de personnes, les dates…)
+- Au moins trois références bibliographiques en notes de bas de page créées avec Zotero (au moins un livre et une référence de type article ou chapitre)
+- Respect des règles typographiques françaises (espaces insécables)
 - Une bibliographie et une table des matières finales
-- Joindre un fichier biblio Zotero au format BibteX
+- Exporter la collection dans un fichier biblio Zotero au format **BibteX** et le joindre au devoir
 
+Pour le **19 décembre** dernier délai.
 
+<!--
 ### <5>
 
 **Rendu n^o^ 2** -- Un catalogue d'œuvres sous forme de traitement de texte (odt) généré à partir d'un lot de fichiers au format markdown :
@@ -72,7 +80,7 @@ Pour s'équiper d'un ordinateur, voir [ici](https://www.univ-nantes.fr/vie-de-ca
 - 3 notices minimum
 - Utilisation des styles de titres, de paragraphes
 - Une bibliographie finale
-
+-->
 
 <!--
 
@@ -242,9 +250,7 @@ Tous les diaporamas sont accessibles en deux formats :
 
 ![](/home/sbiay/illustrations-cours/cours/NUM1/schemas/arbo-dossiers.jpg)
 
-
-Image vectorielle [ici](https://raw.githubusercontent.com/sbiay/td-num-hacm-1/b792db2fd7cc93d517f1a2f8059ee4f2152f8f09/img/arbo-dossiers.svg)
-
+<!--je n'ai pas conservé l'image vectorielle d'origine-->
 
 <a id='t2-3'/>
 
